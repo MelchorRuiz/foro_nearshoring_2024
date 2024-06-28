@@ -5,13 +5,8 @@
 </div>
 <br />
 
-This project features a Landing Page designed for the "Foro Electromovilidad 2024", a conference dedicated to exploring the latest trends, innovations, and developments in electromobility. The page is built using Astro for the frontend and Express for the backend, ensuring a smooth and efficient experience for both users and event administrators.
 
 ## 🖼️ Project Screenshots:
-
-<img src="./screenshots/img_1.png" style="height: 50%; width:50%;">
-<img src="./screenshots/img_2.png" style="height: 50%; width:50%;">
-<img src="./screenshots/img_3.png" style="height: 50%; width:50%;">
 
 ## 🕹️ Commands
 

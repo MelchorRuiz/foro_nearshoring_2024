@@ -1,85 +1,169 @@
 [
     {
-        "src": "/gallery/foro_electromovilidad_1.webp",
-        "alt": "Imagen 1",
+        "src": "/gallery/foro_nearshoring_1.webp",
+        "alt": "imagen 1",
         "width": 1920,
         "height": 1080
     },
     {
-        "src": "/gallery/foro_electromovilidad_2.webp",
-        "alt": "Imagen 2",
+        "src": "/gallery/foro_nearshoring_2.webp",
+        "alt": "imagen 2",
         "width": 1920,
         "height": 1080
     },
     {
-        "src": "/gallery/foro_electromovilidad_3.webp",
-        "alt": "Imagen 3",
+        "src": "/gallery/foro_nearshoring_3.webp",
+        "alt": "imagen 3",
         "width": 1920,
         "height": 1080
     },
     {
-        "src": "/gallery/foro_electromovilidad_4.webp",
-        "alt": "Imagen 4",
+        "src": "/gallery/foro_nearshoring_4.webp",
+        "alt": "imagen 4",
         "width": 1920,
         "height": 1080
     },
     {
-        "src": "/gallery/foro_electromovilidad_5.webp",
-        "alt": "Imagen 5",
+        "src": "/gallery/foro_nearshoring_5.webp",
+        "alt": "imagen 5",
         "width": 1920,
         "height": 1080
     },
     {
-        "src": "/gallery/foro_electromovilidad_6.webp",
-        "alt": "Imagen 6",
+        "src": "/gallery/foro_nearshoring_6.webp",
+        "alt": "imagen 6",
         "width": 1920,
         "height": 1080
     },
     {
-        "src": "/gallery/foro_electromovilidad_7.webp",
-        "alt": "Imagen 7",
+        "src": "/gallery/foro_nearshoring_7.webp",
+        "alt": "imagen 7",
         "width": 1920,
         "height": 1080
     },
     {
-        "src": "/gallery/foro_electromovilidad_8.webp",
-        "alt": "Imagen 8",
+        "src": "/gallery/foro_nearshoring_8.webp",
+        "alt": "imagen 8",
         "width": 1920,
         "height": 1080
     },
     {
-        "src": "/gallery/foro_electromovilidad_9.webp",
-        "alt": "Imagen 9",
+        "src": "/gallery/foro_nearshoring_9.webp",
+        "alt": "imagen 9",
         "width": 1920,
         "height": 1080
     },
     {
-        "src": "/gallery/foro_electromovilidad_10.webp",
-        "alt": "Imagen 10",
+        "src": "/gallery/foro_nearshoring_10.webp",
+        "alt": "imagen 10",
         "width": 1920,
         "height": 1080
     },
     {
-        "src": "/gallery/foro_electromovilidad_11.webp",
-        "alt": "Imagen 11",
+        "src": "/gallery/foro_nearshoring_11.webp",
+        "alt": "imagen 11",
         "width": 1920,
         "height": 1080
     },
     {
-        "src": "/gallery/foro_electromovilidad_12.webp",
-        "alt": "Imagen 12",
+        "src": "/gallery/foro_nearshoring_12.webp",
+        "alt": "imagen 12",
         "width": 1920,
         "height": 1080
     },
     {
-        "src": "/gallery/foro_electromovilidad_13.webp",
-        "alt": "Imagen 13",
+        "src": "/gallery/foro_nearshoring_13.webp",
+        "alt": "imagen 13",
         "width": 1920,
         "height": 1080
     },
     {
-        "src": "/gallery/foro_electromovilidad_14.webp",
-        "alt": "Imagen 14",
+        "src": "/gallery/foro_nearshoring_14.webp",
+        "alt": "imagen 14",
+        "width": 1920,
+        "height": 1080
+    },
+    {
+        "src": "/gallery/foro_nearshoring_15.webp",
+        "alt": "imagen 15",
+        "width": 1920,
+        "height": 1080
+    },
+    {
+        "src": "/gallery/foro_nearshoring_16.webp",
+        "alt": "imagen 16",
+        "width": 1920,
+        "height": 1080
+    },
+    {
+        "src": "/gallery/foro_nearshoring_17.webp",
+        "alt": "imagen 17",
+        "width": 1920,
+        "height": 1080
+    },
+    {
+        "src": "/gallery/foro_nearshoring_18.webp",
+        "alt": "imagen 18",
+        "width": 1920,
+        "height": 1080
+    },
+    {
+        "src": "/gallery/foro_nearshoring_19.webp",
+        "alt": "imagen 19",
+        "width": 1920,
+        "height": 1080
+    },
+    {
+        "src": "/gallery/foro_nearshoring_20.webp",
+        "alt": "imagen 20",
+        "width": 1920,
+        "height": 1080
+    },
+    {
+        "src": "/gallery/foro_nearshoring_21.webp",
+        "alt": "imagen 21",
+        "width": 1920,
+        "height": 1080
+    },
+    {
+        "src": "/gallery/foro_nearshoring_22.webp",
+        "alt": "imagen 22",
+        "width": 1920,
+        "height": 1080
+    },
+    {
+        "src": "/gallery/foro_nearshoring_23.webp",
+        "alt": "imagen 23",
+        "width": 1920,
+        "height": 1080
+    },
+    {
+        "src": "/gallery/foro_nearshoring_24.webp",
+        "alt": "imagen 24",
+        "width": 1920,
+        "height": 1080
+    },
+    {
+        "src": "/gallery/foro_nearshoring_25.webp",
+        "alt": "imagen 25",
+        "width": 1920,
+        "height": 1080
+    },
+    {
+        "src": "/gallery/foro_nearshoring_26.webp",
+        "alt": "imagen 26",
+        "width": 1920,
+        "height": 1080
+    },
+    {
+        "src": "/gallery/foro_nearshoring_27.webp",
+        "alt": "imagen 27",
+        "width": 1920,
+        "height": 1080
+    },
+    {
+        "src": "/gallery/foro_nearshoring_28.webp",
+        "alt": "imagen 28",
         "width": 1920,
         "height": 1080
     }
