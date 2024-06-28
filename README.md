@@ -1,12 +1,17 @@
 # Foro Electromovilidad 2024
 
 <div align="center">
-<img src="https://socialify.git.ci/MelchorRuiz/foro_electromovilidad_2024/image?description=1&font=Jost&language=1&name=1&owner=1&pattern=Overlapping%20Hexagons&theme=Auto" alt="project-image" width="700">
+<img src="https://socialify.git.ci/MelchorRuiz/foro_nearshoring_2024/image?description=1&font=Jost&language=1&name=1&owner=1&pattern=Overlapping%20Hexagons&theme=Auto" alt="project-image" width="700">
 </div>
 <br />
 
+This project features a Landing Page designed for the "Nearshoring Forum 2024," an event dedicated to exploring the latest trends, innovations, and developments in nearshoring. The page is built using Astro for the frontend and Express for the backend, ensuring a smooth and efficient experience for both users and event administrators.
 
 ## 🖼️ Project Screenshots:
+
+<img src="./screenshots/img_1.png" style="height: 50%; width:50%;">
+<img src="./screenshots/img_2.png" style="height: 50%; width:50%;">
+<img src="./screenshots/img_3.png" style="height: 50%; width:50%;">
 
 ## 🕹️ Commands
 
