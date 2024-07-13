@@ -6,7 +6,7 @@ export default function template( name, email) {
     <tbody>
         <tr>
           <td colspan="2" align="center">
-            <img src="${url}/assets/email_es.png" alt="logo" width="550">         
+            <img src="${url}/assets/email_es.webp" alt="logo" width="550">         
           </td>
         </tr>        
         <tr>
@@ -15,21 +15,21 @@ export default function template( name, email) {
               BIENVENIDO, ${name}. TU REGISTRO SE HA REALIZADO CON ÉXITO.
             </h2>
             <h2 style='text-align: center;'>
-              GRACIAS POR FORMAR PARTE DE <span style="color:#007ae9;font-weight:bold;">FORO DE ELECTROMOVILIDAD 2024</span>
+              GRACIAS POR FORMAR PARTE DE <span style="color:#3F4E74;font-weight:bold;">FORO NEARSHORING 2024</span>
             </h2>
             <div style="text-align: justify;font-size:22px;">
-              <strong>Explora las</strong> <span style="color:#007ae9;font-weight:bold;">últimas tendencias</span> e innovaciones en vehículos eléctricos, cononece y aprende de los expertos en la industria y descubre las claves de la infraestructura de carga del futuro.                    
+              ¡No pierdas la oportunidad de estar con los especialistas actuales del <span style="color:#3F4E74;font-weight:bold;">Nearshoring</span> y conoce las últimas tendencias!                   
             </div>
             <div style="text-align:center;padding:20px;margin-top:25px;">
-              <div style="background: #007ae9;padding:20px;border-radius:20px;">
+              <div style="background: #3F4E74;padding:20px;border-radius:20px;">
                 <a style="text-decoration:none; color: white;font-weight:bold;" href="${url}/#program" target='_blank'>                 
                   CONSULTA EL PROGRAMA DE ACTIVIDADES
                 </a>
               </div>
               <p style="margin-top:40px;margin-bottom: 40px;">
-                Te esperamos en <strong>FORO DE ELECTROMOVILIDAD 2024 el (fecha por confirmar), Auditorio Mateo Herrera, León, Guanajuato.</strong>
+                Te esperamos en <strong>FORO NEARSHORING 2024 el (fecha por confirmar), Auditorio Mateo Herrera, León, Guanajuato.</strong>
               </p>
-              <div style="background: #007ae9;color:white;border-radius: 20px;padding:20px;">               
+              <div style="background: #3F4E74;color:white;border-radius: 20px;padding:20px;">               
                <p><strong>HORARIO:</strong></p>
                <p>(hora por confirmar)</p>
               </div>
@@ -53,26 +53,26 @@ export default function template( name, email) {
             </div>
             <p style="font-weight:bold;font-size:20px;text-align: center;">AÑADIR AL CALENDARIO</p>
             <div style="text-align:center;padding:20px;margin: 20px;">
-              <a style="background: #0a1650;color:white;padding:20px;border-radius:20px;margin:20px;text-decoration:none;"
+              <a style="background: #2F4858;color:white;padding:20px;border-radius:20px;margin:20px;text-decoration:none;"
               target="_blank">                        
                 Google
               </a>
             </div>
             <div style="text-align:center;padding:20px;margin: 20px;">              
-              <a style="background: #0a1650;color:white;padding:20px;border-radius:20px;text-decoration:none;"
+              <a style="background: #2F4858;color:white;padding:20px;border-radius:20px;text-decoration:none;"
               target="_blank">                       
                 Outlook
               </a>
             </div>                   
             <div style="text-align:center;padding:20px;margin: 20px;">
-              <a style="background: #0a1650;color:white;padding:20px;border-radius:20px;margin:20px;text-decoration:none;"
+              <a style="background: #2F4858;color:white;padding:20px;border-radius:20px;margin:20px;text-decoration:none;"
               target="_blank">
                 
               <i>Y!</i> Yahoo!
               </a>
             </div>
             <div style="text-align:center;padding:20px;margin: 20px;">                            
-              <a style="background: #0a1650;color:white;padding:20px;border-radius:20px;text-decoration:none;" donwload target="_blank">  
+              <a style="background: #2F4858;color:white;padding:20px;border-radius:20px;text-decoration:none;" donwload target="_blank">  
                 iCalendar
               </a>
             </div>
@@ -91,14 +91,14 @@ export default function template( name, email) {
         </tr>               
         <tr>
           <td style="padding:20px;" align="center">
-            <div style="background: #007ae9;border-radius: 20px;padding:20px;margin:auto;">
+            <div style="background: #3F4E74;border-radius: 20px;padding:20px;margin:auto;">
               <a style="text-decoration:none;color:white;" href="https://igeco.mx/" target="_blank">
                 ENTÉRATE DE TODOS NUESTROS EVENTOS
               </a>
             </div>          
           </td>
           <td style="padding:20px;" align="center">
-            <div style="background: #007ae9;width:fit-content;border-radius: 20px;padding:20px;margin:auto;">
+            <div style="background: #3F4E74;width:fit-content;border-radius: 20px;padding:20px;margin:auto;">
               <a style="text-decoration:none;color:white;" href="${url}" target="_blank">
                 INVITA A UN COLEGA
               </a>
