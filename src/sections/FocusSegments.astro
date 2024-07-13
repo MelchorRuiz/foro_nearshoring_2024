@@ -2,12 +2,12 @@
 import { getI18N } from "../i18n";
 const i18n = getI18N(Astro.currentLocale);
 
-const images = [
-  { src: "/segmentos/segmento_1.webp" },
-  { src: "/segmentos/segmento_2.webp" },
-  { src: "/segmentos/segmento_3.webp" },
-  { src: "/segmentos/segmento_4.webp" },
-  { src: "/segmentos/segmento_5.webp" },
+const videos = [
+  { src: "/segmentos/segmento_1.webm" },
+  { src: "/segmentos/segmento_2.webm" },
+  { src: "/segmentos/segmento_3.webm" },
+  { src: "/segmentos/segmento_4.webm" },
+  { src: "/segmentos/segmento_5.webm" },
 ];
 ---
 
@@ -59,19 +59,27 @@ const images = [
         class="justify-center items-center grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-x-8"
       >
         {
-          images.map((image, index) => (
+          videos.map((video, index) => (
             <div
-              class="h-52 bg-center bg-cover transition-transform hover:scale-[1.02] rounded-tr-[4rem] rounded-bl-[4rem]"
-              style={`background-image: url('${image.src}')`}
+              class="relative h-52 transition-transform hover:scale-[1.02] rounded-tr-[4rem] rounded-bl-[4rem]"
             >
-              <div class="w-full h-full flex flex-col justify-end items-center bg-gradient-to-t from-gray-900/50 to-gray-900/30 rounded-tr-[4rem] rounded-bl-[4rem]">
+              <video
+                autoplay
+                loop
+                muted
+                playsinline
+                class="w-full h-full object-cover rounded-tr-[4rem] rounded-bl-[4rem] absolute top-0 left-0"
+              >
+                <source src={video.src} type="video/webm" />
+              </video>
+              <div class="w-full h-full flex flex-col justify-end items-center  bg-gradient-to-t from-gray-900/50 to-gray-900/30 rounded-tr-[4rem] rounded-bl-[4rem] absolute top-0 left-0">
                 <p class="text-center text-base mt-2 text-white w-full p-[15px] font-medium">
                   {i18n.focusSegments.segments[index]}
                 </p>
                 <div class="bg-secondary w-20 h-2 mb-2 rounded-md" />
               </div>
             </div>
-          ))
+          ))  
         }
       </div>
     </div>
