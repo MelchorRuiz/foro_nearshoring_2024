@@ -15,7 +15,7 @@ const transporter = nodemailer.createTransport({
 
 export default async function sendEmail({ name, email, qr, locale }) {
     const info = await transporter.sendMail({
-        from: `"Foro de Nearshoring" <${process.env.SMTP_GMAIL}>`,
+        from: `"Foro Nearshoring" <${process.env.SMTP_GMAIL}>`,
         to: email,
         subject: locale === 'en' ? 'Successful Registration' : 'Registro Exitoso',
         html: locale === 'en' ? templateEn( name, email) : templateEs( name, email),
