@@ -1,4 +1,4 @@
-import { set, useForm } from 'react-hook-form'
+import { useForm } from 'react-hook-form'
 import { useState, useEffect } from 'react'
 import { useRegisterFormStore } from '../store/register-form.js'
 import { useThankYouPageStore } from '../store/thankyou-page.js'

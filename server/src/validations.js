@@ -52,12 +52,10 @@ function validatePhone(phone) {
 }
 
 function validateCompany(company) {
-    const errors = [];
     if (!company) return 'Company is required'
 }
 
 function validatePosition(position) {
-    const errors = [];
     if (!position) return 'Position is required'
 }
 
