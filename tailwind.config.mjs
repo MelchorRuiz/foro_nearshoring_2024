@@ -6,12 +6,12 @@ export default {
 	theme: {
 		extend: {
 			fontFamily: {
-				'jersey': ['"Jersey 15"', 'sans-serif'],
+				'open-sans': ['"Open Sans"', 'sans-serif'],
 				'roboto': ['Roboto', 'sans-serif'],
 			},
 			colors: {
-				'primary': '#3F4E74',
-				'secondary': '#2F4858',
+				'primary': '#2F4858',
+				'secondary': '#3F4E74',
 				'success': '#4CAF50',
 				'error': '#FF204E',
 			}

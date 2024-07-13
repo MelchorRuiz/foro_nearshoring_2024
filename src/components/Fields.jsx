@@ -1,5 +1,4 @@
 export const InputField = ({
-  className = '',
   label,
   defaultValue,
   register,
@@ -8,14 +7,14 @@ export const InputField = ({
   validation,
   handleValue,
 }) => (
-  <div className={`w-full md:w-[49%] ${className}`}>
-    <label className="text-white" htmlFor={name}>{label}</label>
+  <div className="w-full md:w-[49%]">
+    <label className="text-black" htmlFor={name}>{label}</label>
     <input
       id={name}
       className="w-full my-1 border border-gray-200 rounded-md py-2 px-3 box-border"
       style={{'backgroundColor': 'rgba(255, 255, 255, 0.8)'}} 
       autoComplete='given-name'
-      defaultValue={defaultValue}
+      value={defaultValue}
       {...register(name, {
         ...validation,
         onChange: (e) => handleValue(e.target.value),
@@ -26,7 +25,6 @@ export const InputField = ({
 )
 
 export const SelectField = ({
-  className = '',
   label,
   placeholder,
   options,
@@ -37,8 +35,8 @@ export const SelectField = ({
   validation,
   handleValue,
 }) => (
-  <div className={`w-full md:w-[49%] ${className}`}>
-    <label className="text-white" htmlFor={name}>{label}</label>
+  <div className="w-full md:w-[49%]">
+    <label className="text-black" htmlFor={name}>{label}</label>
     <select
       id={name}
       className="w-full my-1 border border-gray-200 rounded-md py-2 px-3 box-border"

@@ -1,20 +1,35 @@
 {
     "title": "Nearshoring Forum",
-    "subtitle": "Challenges and opportunities for Guanajuato.",
-    "date": "September 5, 2024",
-    "focus-segments": {
-        "title": "Focus Segments",
+    "hero": {
+        "title": "Nearshoring",
+        "subtitle": [
+            "Discover the path to",
+            "smarter and more sustainable mobility",
+            "in our",
+            "Electromobility Forum"
+        ]
+    },
+    "message": [
+        "Explore the",
+        "latest trends",
+        "and innovations in electric vehicles, learn from industry experts and discover the keys to the future charging infrastructure."
+    ],
+    "focusSegments": {
+        "title": [
+            "Focus",
+            "Segments"
+        ],
         "segments": [
             "Economy",
             "Foreign investment",
             "Infrastructure and development",
             "Strategic alliances",
-            "Legal and Regulatory Issues",
             "Industrial sector"
         ]
     },
     "program": {
-        "title": "Program"
+        "title": "Program",
+        "empty": "There are no scheduled activities at the moment"
     },
     "speakers": {
         "title": "Speakers"
@@ -82,5 +97,9 @@
         "hours": "Hours",
         "minutes": "Minutes",
         "seconds": "Seconds"
+    },
+    "footer": {
+        "position": "Public Relations",
+        "privacy": "Privacy Policy"
     }
 }

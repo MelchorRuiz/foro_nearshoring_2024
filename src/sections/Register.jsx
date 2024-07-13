@@ -1,12 +1,12 @@
 import { set, useForm } from 'react-hook-form'
 import { useState, useEffect } from 'react'
-import { useRegisterFormStore } from '../../store/register-form.js'
-import { useThankYouPageStore } from '../../store/thankyou-page'
-import locationData from '../../data/states_and_cities.json'
-import countries from '../../data/countries.json'
-import { InputField, SelectField } from './Fields.jsx'
+import { useRegisterFormStore } from '../store/register-form.js'
+import { useThankYouPageStore } from '../store/thankyou-page.js'
+import locationData from '../data/states_and_cities.json'
+import countries from '../data/countries.json'
+import { InputField, SelectField } from '../components/Fields.jsx'
 
-export function Register({ i18n, thankYouPagePath }) {
+export default function Register({ i18n, thankYouPagePath, locale }) {
   const {
     name,
     email,
@@ -23,11 +23,12 @@ export function Register({ i18n, thankYouPagePath }) {
     setPosition,
     setCountry,
     setState,
+    setMexicanState,
     setCity,
     reset,
   } = useRegisterFormStore()
 
-  const { setSubmitting, setPdfUrl } = useThankYouPageStore()
+  const { setSubmitting, setImageQR } = useThankYouPageStore()
 
   const {
     register,
@@ -36,6 +37,7 @@ export function Register({ i18n, thankYouPagePath }) {
   } = useForm()
 
   const [isFailed, setIsFailed] = useState(false)
+  const [failMessage, setFailMessage] = useState('')
   const [isLoading, setIsLoading] = useState(false)
   const [cities, setCities] = useState([])
 
@@ -53,28 +55,28 @@ export function Register({ i18n, thankYouPagePath }) {
     }
   }, [isLoading]);
 
-
   const onSubmit = async (data) => {
     setIsLoading(true)
-    const url = import.meta.env.DEV ? 'http://localhost:3000/create-register' : 'https://api.example.com/create-register'
+    const url = import.meta.env.DEV ? 'http://localhost:3000/create-register' : 'https://www.foro-nearshoring.igeco.mx/server/create-register'
     try {
       const response = await fetch(url, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify(data),
+        body: JSON.stringify({ ...data, locale: locale}),
       })
       if (response.status === 201) {
         const data = await response.json()
         reset()
         setSubmitting(true)
-        setPdfUrl(data.uuid)
+        setImageQR(data.qr)
         setIsLoading(false)
         window.location.href = thankYouPagePath
       }
       if (response.status === 409) {
         setIsFailed(true)
+        setFailMessage(i18n.error2)
         setIsLoading(false)
       }
     } catch (error) {
@@ -89,7 +91,6 @@ export function Register({ i18n, thankYouPagePath }) {
     <>
     <form className='flex flex-wrap md:gap-[2%]' onSubmit={handleSubmit(onSubmit)}>
       <InputField
-        className='lg:w-[49%]'
         label={i18n.name.label}
         defaultValue={name}
         register={register}
@@ -140,7 +141,6 @@ export function Register({ i18n, thankYouPagePath }) {
       />
 
       <InputField
-        className='lg:w-[23.5%]'
         label={i18n.company.label}
         defaultValue={company}
         register={register}
@@ -151,7 +151,6 @@ export function Register({ i18n, thankYouPagePath }) {
       />
 
       <InputField
-        className='lg:w-[23.5%]'
         label={i18n.position.label}
         defaultValue={position}
         register={register}
@@ -162,7 +161,6 @@ export function Register({ i18n, thankYouPagePath }) {
       />
 
       <SelectField
-        className='lg:w-[23.5%]'
         label={i18n.country.label}
         placeholder={i18n.selectPlaceHolder}
         options={countries.map((country) => country.name)}
@@ -178,7 +176,6 @@ export function Register({ i18n, thankYouPagePath }) {
         country === 'Mexico' ? (
           <>
             <SelectField
-              className='lg:w-[23.5%]'
               label={i18n.state.label}
               placeholder={i18n.selectPlaceHolder}
               options={states}
@@ -187,10 +184,7 @@ export function Register({ i18n, thankYouPagePath }) {
               errors={errors}
               name='state'
               validation={{ required: i18n.state.required }}
-              handleValue={(state) => {
-                setState(state)
-                setCity('')
-              }}
+              handleValue={setMexicanState}
             />
 
             <SelectField
@@ -208,7 +202,6 @@ export function Register({ i18n, thankYouPagePath }) {
         ) : (
           <>
             <InputField
-              className='lg:w-[23.5%]'
               label={i18n.state.label}
               defaultValue={state}
               register={register}
@@ -239,7 +232,7 @@ export function Register({ i18n, thankYouPagePath }) {
           </svg>
           <span className="sr-only">Info</span>
           <div>
-            <span className="font-medium">{i18n.error1}</span> {i18n.error2}
+            <span className="font-medium">{i18n.error1}</span> {failMessage}
           </div>
         </div>
       )}
@@ -249,7 +242,7 @@ export function Register({ i18n, thankYouPagePath }) {
       isLoading && (
         <div className='fixed top-0 left-0 w-full h-full bg-gray-300 bg-opacity-80 flex items-center justify-center z-30 overflow-hidden'>
           <div className='w-28'>
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><circle fill="#000000" stroke="#000000" stroke-width="15" r="15" cx="40" cy="100"><animate attributeName="opacity" calcMode="spline" dur="2" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.4"></animate></circle><circle fill="#000000" stroke="#000000" stroke-width="15" r="15" cx="100" cy="100"><animate attributeName="opacity" calcMode="spline" dur="2" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.2"></animate></circle><circle fill="#000000" stroke="#000000" stroke-width="15" r="15" cx="160" cy="100"><animate attributeName="opacity" calcMode="spline" dur="2" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="0"></animate></circle></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><circle fill="#000000" stroke="#000000" strokeWidth="15" r="15" cx="40" cy="100"><animate attributeName="opacity" calcMode="spline" dur="2" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.4"></animate></circle><circle fill="#000000" stroke="#000000" strokeWidth="15" r="15" cx="100" cy="100"><animate attributeName="opacity" calcMode="spline" dur="2" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="-.2"></animate></circle><circle fill="#000000" stroke="#000000" strokeWidth="15" r="15" cx="160" cy="100"><animate attributeName="opacity" calcMode="spline" dur="2" values="1;0;1;" keySplines=".5 0 .5 1;.5 0 .5 1" repeatCount="indefinite" begin="0"></animate></circle></svg>
           </div>
         </div>
       )
