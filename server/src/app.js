@@ -10,7 +10,7 @@ import 'dotenv/config';
 const app = express();
 
 app.use(cors({
-    origin: process.env.DEV ? 'http://localhost:4321' : ["https://www.foro-nearshoring.igeco.mx/", "https://foro-nearshoring.igeco.mx/"],
+    origin: process.env.DEV ? 'http://localhost:4321' : ["https://www.foro-nearshoring.igeco.mx", "https://foro-nearshoring.igeco.mx"],
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type']
 }));
