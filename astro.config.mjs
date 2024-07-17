@@ -4,6 +4,7 @@ import react from "@astrojs/react";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://foro-nearshoring.igeco.mx',
   integrations: [tailwind(), react()],
   i18n: {
     defaultLocale: "es",
