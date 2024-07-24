@@ -8,19 +8,22 @@
         ]
     },
     "message": [
-        "¡No pierdas la oportunidad de estar con los especialistas actuales del",
-        "y conoce las últimas tendencias!"
+        "¡Descubre las claves del",
+        "Nearshoring",
+        "y capitaliza sus ventajas con los líderes del sector!",
+        "Exploraremos áreas clave para el impulso de empleo, inversión extranjera, infraestructura y desarrollo, transformando el panorama empresarial global."
     ],
     "focusSegments": {
         "title": [
             "Segmentos",
             "de enfoque"
         ],
+        "free_event": "Evento gratuito",
         "segments": [
-            "Infraestructura y desarrollo",
-            "Inversión extranjera",
-            "Alianzas estratégicas",
             "Economía",
+            "Inversión extranjera",
+            "Infraestructura y desarrollo",
+            "Alianzas estratégicas",
             "Sector industrial"
         ]
     },

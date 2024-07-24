@@ -16,6 +16,7 @@
             "Focus",
             "Segments"
         ],
+        "free_event": "Free event",
         "segments": [
             "Infrastructure and development",
             "Foreign investment",
