@@ -27,11 +27,11 @@ export default function template( name, email) {
                 </a>
               </div>
               <p style="margin-top:40px;margin-bottom: 40px;">
-                Te esperamos en <strong>FORO NEARSHORING 2024 el (fecha por confirmar), Auditorio Mateo Herrera, León, Guanajuato.</strong>
+                Te esperamos en <strong>FORO NEARSHORING 2024 el 05/09/2024, Auditorio Mateo Herrera, León, Guanajuato.</strong>
               </p>
               <div style="background: #3F4E74;color:white;border-radius: 20px;padding:20px;">               
                <p><strong>HORARIO:</strong></p>
-               <p>(hora por confirmar)</p>
+               <p>05 de septiembre, 2024</p>
               </div>
             </div>    
             <div>
@@ -53,26 +53,26 @@ export default function template( name, email) {
             </div>
             <p style="font-weight:bold;font-size:20px;text-align: center;">AÑADIR AL CALENDARIO</p>
             <div style="text-align:center;padding:20px;margin: 20px;">
-              <a style="background: #2F4858;color:white;padding:20px;border-radius:20px;margin:20px;text-decoration:none;"
+              <a style="background: #2F4858;color:white;padding:20px;border-radius:20px;margin:20px;text-decoration:none;" href="https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20240905%2F20240906&details=%C2%A1Descubre%20las%20claves%20del%20Nearshoring%20y%20capitaliza%20sus%20ventajas%20con%20los%20l%C3%ADderes%20del%20sector%21&location=Auditorio%20Mateo%20Herrera&text=Foro%20Nearshoring"
               target="_blank">                        
                 Google
               </a>
             </div>
             <div style="text-align:center;padding:20px;margin: 20px;">              
-              <a style="background: #2F4858;color:white;padding:20px;border-radius:20px;text-decoration:none;"
+              <a style="background: #2F4858;color:white;padding:20px;border-radius:20px;text-decoration:none;" href="https://outlook.live.com/calendar/0/action/compose?allday=true&body=%C2%A1Descubre%20las%20claves%20del%20Nearshoring%20y%20capitaliza%20sus%20ventajas%20con%20los%20l%C3%ADderes%20del%20sector%21&enddt=2024-09-06T16%3A30%3A00&location=Auditorio%20Mateo%20Herrera&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=2024-09-05T16%3A30%3A00&subject=Foro%20Nearshoring"
               target="_blank">                       
                 Outlook
               </a>
             </div>                   
             <div style="text-align:center;padding:20px;margin: 20px;">
-              <a style="background: #2F4858;color:white;padding:20px;border-radius:20px;margin:20px;text-decoration:none;"
+              <a style="background: #2F4858;color:white;padding:20px;border-radius:20px;margin:20px;text-decoration:none;" href="https://calendar.yahoo.com/?desc=%25C2%25A1Descubre%2520las%2520claves%2520del%2520Nearshoring%2520y%2520capitaliza%2520sus%2520ventajas%2520con%2520los%2520l%25C3%25ADderes%2520del%2520sector%21&dur=allday&et=20240906&in_loc=Auditorio+Mateo+Herrera&st=20240905&title=Foro%2520Nearshoring&v=60"
               target="_blank">
                 
               <i>Y!</i> Yahoo!
               </a>
             </div>
             <div style="text-align:center;padding:20px;margin: 20px;">                            
-              <a style="background: #2F4858;color:white;padding:20px;border-radius:20px;text-decoration:none;" donwload target="_blank">  
+              <a style="background: #2F4858;color:white;padding:20px;border-radius:20px;text-decoration:none;" donwload target="_blank" href="https://foro-nearshoring.igeco.mx/calendar.ics">  
                 iCalendar
               </a>
             </div>
