@@ -34,12 +34,12 @@ const { title } = Astro.props;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: theme(fontFamily.roboto);
+    font-family: theme('fontFamily.roboto');
     font-weight: 400;
     font-style: normal;
   }
   body {
-    background-color: theme(backgroundColor.white);
+    background-color: theme('backgroundColor.white');
   }
 
   body::-webkit-scrollbar {
@@ -48,7 +48,7 @@ const { title } = Astro.props;
     background-color: rgba(0, 0, 0, 0.1);
   }
   ::-webkit-scrollbar-thumb {
-    background-color: theme(colors.gray.800);
+    background-color: theme('colors.gray.800');
     border-radius: 10px;
   }
 </style>

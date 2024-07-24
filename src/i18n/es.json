@@ -32,10 +32,11 @@
         "title": "Ponentes"
     },
     "gallery": {
-        "title": "Galería"
+        "title": "Hightlights 2023"
     },
+    "edition_2023": "Edición 2023",
     "register": {
-        "title": "Regístrate",
+        "title": "Registro",
         "form": {
             "name": {
                 "label": "Nombre",
