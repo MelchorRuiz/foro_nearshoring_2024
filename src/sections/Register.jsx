@@ -90,6 +90,19 @@ export default function Register({ i18n, thankYouPagePath, locale }) {
   return (
     <>
     <form className='flex flex-wrap md:gap-[2%]' onSubmit={handleSubmit(onSubmit)}>
+    <InputField
+        label={i18n.email.label}
+        defaultValue={email}
+        register={register}
+        errors={errors}
+        name={'email'}
+        validation={{
+          required: i18n.email.required,
+          pattern: { value: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/, message: i18n.email.invalid },
+        }}
+        handleValue={setEmail}
+      />
+
       <InputField
         label={i18n.name.label}
         defaultValue={name}
@@ -104,16 +117,23 @@ export default function Register({ i18n, thankYouPagePath, locale }) {
       />
 
       <InputField
-        label={i18n.email.label}
-        defaultValue={email}
+        label={i18n.company.label}
+        defaultValue={company}
         register={register}
         errors={errors}
-        name={'email'}
-        validation={{
-          required: i18n.email.required,
-          pattern: { value: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/, message: i18n.email.invalid },
-        }}
-        handleValue={setEmail}
+        name='company'
+        validation={{ required: i18n.company.required }}
+        handleValue={setCompany}
+      />
+
+      <InputField
+        label={i18n.position.label}
+        defaultValue={position}
+        register={register}
+        errors={errors}
+        name='position'
+        validation={{ required: i18n.position.required }}
+        handleValue={setPosition}
       />
 
       <InputField
@@ -138,26 +158,6 @@ export default function Register({ i18n, thankYouPagePath, locale }) {
           },
         }}
         handleValue={setPhone}
-      />
-
-      <InputField
-        label={i18n.company.label}
-        defaultValue={company}
-        register={register}
-        errors={errors}
-        name='company'
-        validation={{ required: i18n.company.required }}
-        handleValue={setCompany}
-      />
-
-      <InputField
-        label={i18n.position.label}
-        defaultValue={position}
-        register={register}
-        errors={errors}
-        name='position'
-        validation={{ required: i18n.position.required }}
-        handleValue={setPosition}
       />
 
       <SelectField
