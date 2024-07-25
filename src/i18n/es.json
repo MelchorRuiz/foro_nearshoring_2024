@@ -5,7 +5,9 @@
         "subtitle": [
             "Retos y oportunidades para",
             "Guanajuato"
-        ]
+        ],
+        "date": "5 de Septiembre de 2024",
+        "free_event": "Evento gratuito"
     },
     "message": [
         "¡Descubre las claves del",
@@ -18,7 +20,6 @@
             "Segmentos",
             "de enfoque"
         ],
-        "free_event": "Evento gratuito",
         "segments": [
             "Economía",
             "Inversión extranjera",
