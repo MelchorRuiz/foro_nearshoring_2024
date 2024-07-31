@@ -40,7 +40,42 @@ interface Program {
 */
 
 const program : Program[] = [
+    {
+        "name": "Inauguración del Foro y palabras de bienvenida",
+        "hours": "10:00 - 10:30 Hrs",
+        "speakers": []
+    },
+    {
+        "name": "El rol de la geopolítica en el Nearshoring: oportunidades y desafíos del T-MEC como herramientas para el desarrollo regional",
+        "hours": "10:30 - 11:30 Hrs",
+        "speakers": []
+    },
+    {
+        "name": "Retos y soluciones en la logística e infraestructura para el Nearshoring",
+        "hours": "11:30 - 12:30 Hrs",
+        "speakers": []
+    },
     
+    {
+        "name": "Break",
+        "hours": "12:30 - 12:40 Hrs",
+        "speakers": []
+    },
+    {
+        "name": "Innovación y avances en la transformación digital: el papel de la tecnología en el Nearshoring",
+        "hours": "12:40 - 13:40 Hrs",
+        "speakers": []
+    },
+    {
+        "name": "Estrategias exitosas, lecciones aprendidas y mejores prácticas en Nearshoring",
+        "hours": "13:40 - 14:40 Hrs",
+        "speakers": []
+    },
+    {
+        "name": "El futuro del Nearshoring: tendencias y proyecciones",
+        "hours": "14:40 - 15:40 Hrs",
+        "speakers": []
+    },
 ]
 
 export default program;
