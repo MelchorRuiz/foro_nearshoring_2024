@@ -15,13 +15,13 @@ export default function template( name, email ) {
               WELCOME, ${name}. YOUR REGISTRATION WAS SUCCESSFUL.
             </h2>
             <h2 style='text-align: center;'>
-              THANK YOU FOR JOINING <span style="color:#3F4E74;font-weight:bold;">NEARSHORING FORUM 2024</span>
+              THANK YOU FOR JOINING <span style="color:#0284c7;font-weight:bold;">NEARSHORING FORUM 2024</span>
             </h2>
-            <div style="text-align: justify;font-size:22px;">
-              Don't miss the opportunity to meet today's <span style="color:#3F4E74;font-weight:bold;">Nearshoring</span> specialists and learn about the latest trends!             
+            <div style="text-align: center;font-size:22px;">
+              Discover the keys of <span style="color:#0284c7;font-weight:bold;">Nearshoring</span> and capitalize on its advantages with sector leaders!    
             </div>
             <div style="text-align:center;padding:20px;margin-top:25px;">
-              <div style="background: #3F4E74;padding:20px;border-radius:20px;">
+              <div style="background: #0284c7;padding:20px;border-radius:20px;">
                 <a style="text-decoration:none; color: white;font-weight:bold;" href="${url}/#program" target='_blank'>                 
                   SEE THE PROGRAM OF ACTIVITIES
                 </a>
@@ -29,9 +29,9 @@ export default function template( name, email ) {
               <p style="margin-top:40px;margin-bottom: 40px;">
                 We look forward to seeing you at <strong>NEARSHORING FORUM 2024 on 09/05/2024, Mateo Herrera Auditorium, Leon, Guanajuato.
               </p>
-              <div style="background: #3F4E74;color:white;border-radius: 20px;padding:20px;">               
+              <div style="background: #0284c7;color:white;border-radius: 20px;padding:20px;">               
                <p><strong>SCHEDULE:</strong></p>
-               <p>10:00 AM</p>
+               <p>10:00 - 15:40</p>
               </div>
             </div> 
             <div>
@@ -81,26 +81,26 @@ export default function template( name, email ) {
             </p>
             <ul>
               <li>
-                To expedite your access to the event, please show this printed voucher or from your mobile device at the pre-registered visitors module.
+                To expedite your access to the event, please show this voucher from your mobile device in the registration module.
               </li>
               <li>
-                Please note that your badge is personal and non-transferable and must be visible throughout your visit.
+                Please note that your registration is personal and non-transferable.
               </li>                 
             </ul>                                                          
           </td>      
         </tr>               
         <tr>
           <td style="padding:20px;" align="center">
-            <div style="background: #3F4E74;border-radius: 20px;padding:20px;margin:auto;">
+            <div style="background: #0284c7;border-radius: 20px;padding:20px;margin:auto;">
               <a style="text-decoration:none;color:white;" href="https://igeco.mx/" target="_blank">
                 LEARN ABOUT ALL OUR EVENTS
               </a>
             </div>          
           </td>
           <td style="padding:20px;" align="center">
-            <div style="background: #3F4E74;width:fit-content;border-radius: 20px;padding:20px;margin:auto;">
-              <a style="text-decoration:none;color:white;" href="${url}" target="_blank">
-                INVITE A COLLEAGUE
+            <div style="background: #0284c7;width:fit-content;border-radius: 20px;padding:20px;margin:auto;">
+              <a style="text-decoration:none;color:white;" href="https://maps.app.goo.gl/dPbCkn6xaRwNLnzu7" target="_blank">
+                Location
               </a>
             </div>        
           </td>

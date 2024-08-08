@@ -12,26 +12,26 @@ export default function template( name, email) {
         <tr>
           <td colspan="2" >
             <h2 style="text-align: center;margin:0;font-weight:bold;text-transform: uppercase;margin-top: 20px;">
-              BIENVENIDO, ${name}. TU REGISTRO SE HA REALIZADO CON ÉXITO.
+              BIENVENID@, ${name}. TU REGISTRO SE HA REALIZADO CON ÉXITO.
             </h2>
             <h2 style='text-align: center;'>
-              GRACIAS POR FORMAR PARTE DE <span style="color:#3F4E74;font-weight:bold;">FORO NEARSHORING 2024</span>
+              GRACIAS POR FORMAR PARTE DEL <span style="color:#0284c7;font-weight:bold;">FORO NEARSHORING 2024</span>
             </h2>
-            <div style="text-align: justify;font-size:22px;">
-              ¡No pierdas la oportunidad de estar con los especialistas actuales del <span style="color:#3F4E74;font-weight:bold;">Nearshoring</span> y conoce las últimas tendencias!                   
+            <div style="text-align: center;font-size:22px;">
+              ¡Descubre las claves del <span style="color:#0284c7;font-weight:bold;">Nearshoring</span> y capitaliza sus ventajas con los líderes del sector!                  
             </div>
             <div style="text-align:center;padding:20px;margin-top:25px;">
-              <div style="background: #3F4E74;padding:20px;border-radius:20px;">
+              <div style="background: #0284c7;padding:20px;border-radius:20px;">
                 <a style="text-decoration:none; color: white;font-weight:bold;" href="${url}/#program" target='_blank'>                 
                   CONSULTA EL PROGRAMA DE ACTIVIDADES
                 </a>
               </div>
               <p style="margin-top:40px;margin-bottom: 40px;">
-                Te esperamos en <strong>FORO NEARSHORING 2024 el 05/09/2024, Auditorio Mateo Herrera, León, Guanajuato.</strong>
+                Te esperamos en el <strong>FORO NEARSHORING 2024 el 05/09/2024, Auditorio Mateo Herrera, León, Guanajuato.</strong>
               </p>
-              <div style="background: #3F4E74;color:white;border-radius: 20px;padding:20px;">               
+              <div style="background: #0284c7;color:white;border-radius: 20px;padding:20px;">               
                <p><strong>HORARIO:</strong></p>
-               <p>10:00 a.m.</p>
+               <p>10:00 - 15:40</p>
               </div>
             </div>    
             <div>
@@ -81,26 +81,26 @@ export default function template( name, email) {
             </p>
             <ul>
               <li>
-                Para agilizar tu acceso al evento, por favor muestra este comprobante impreso o desde tu dispositivo móvil  en el módulo de visitantes preregistrados.
+                Para agilizar tu acceso al evento, por favor muestra este comprobante desde tu dispositivo móvil en el módulo de registro.
               </li>
               <li>
-                Ten en cuenta que tu gafete es personal e intransferible y debe estar visible durante toda tu visita.
+                Ten en cuenta que tu registro es personal e intransferible.
               </li>                 
             </ul>                                                          
           </td>      
         </tr>               
         <tr>
           <td style="padding:20px;" align="center">
-            <div style="background: #3F4E74;border-radius: 20px;padding:20px;margin:auto;">
+            <div style="background: #0284c7;border-radius: 20px;padding:20px;margin:auto;">
               <a style="text-decoration:none;color:white;" href="https://igeco.mx/" target="_blank">
                 ENTÉRATE DE TODOS NUESTROS EVENTOS
               </a>
             </div>          
           </td>
           <td style="padding:20px;" align="center">
-            <div style="background: #3F4E74;width:fit-content;border-radius: 20px;padding:20px;margin:auto;">
-              <a style="text-decoration:none;color:white;" href="${url}" target="_blank">
-                INVITA A UN COLEGA
+            <div style="background: #0284c7;width:fit-content;border-radius: 20px;padding:20px;margin:auto;">
+              <a style="text-decoration:none;color:white;" href="https://maps.app.goo.gl/dPbCkn6xaRwNLnzu7" target="_blank">
+                UBICACIÓN
               </a>
             </div>        
           </td>
