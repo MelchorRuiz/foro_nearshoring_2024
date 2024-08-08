@@ -1,9 +1,9 @@
 interface Speaker {
     name: string;
     photo: string;
-    profile: string;
+    profile?: string;
     position: string;
-    social: {
+    social?: {
         facebook?: string;
         instagram?: string;
         linkedin?: string;
@@ -27,7 +27,31 @@ interface Speaker {
 */
 
 const speaker : Speaker[] = [
-    
+    {
+        "name": "Bernd Rohde",
+        "photo": "/assets/profile.svg",
+        "position": "CEO Italian German Exhibition Company Mexico",
+    },
+    {
+        "name": "Miguel Leaman Rivas",
+        "photo": "/assets/profile.svg",
+        "position": "Presidente Ejecutivo de Agencia Por México",
+    },
+    {
+        "name": "Carlos Alberto Yates García",
+        "photo": "/assets/profile.svg",
+        "position": "Presidente del Clúster de Energía del Estado de Chihuahua",
+    },
+    {
+        "name": "Laura Frias",
+        "photo": "/assets/profile.svg",
+        "position": "Coordinadora de Atracción de IED y Nearshoring de la AMPIP",
+    },
+    {
+        "name": "Ari - Ben Saks González",
+        "photo": "/assets/profile.svg",
+        "position": "Ernst & Young Global Specialist",
+    },
 ]
 
 export default speaker;

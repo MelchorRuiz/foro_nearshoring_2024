@@ -33,7 +33,25 @@ const i18n = getI18N(Astro.currentLocale);
         speakers.length === 0 ? (
             <p class="text-black text-lg">{i18n.speakers.empty}</p>
         ) : (
-            <></>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+                {speakers.map((speaker) => (
+                    <div class="relative group">
+                        <img
+                            class="group-hover:scale-105 transform transition-transform duration-300 rounded-lg"
+                            src={speaker.photo}
+                            alt={speaker.name}
+                        />
+                        <div class="absolute top-0 h-full w-full flex flex-col justify-end bg-gradient-to-b from-black/10 via-black/60 to-black/80 rounded-lg text-center p-4">
+                            <h4 class="text-white text-lg font-semibold font-open-sans mt-2">
+                                {speaker.name}
+                            </h4>
+                            <p class="text-white text-base font-normal font-open-sans mt-1">
+                                {speaker.position}
+                            </p>
+                        </div>
+                    </div>
+                ))}
+            </div>
         )
     }
 </section>
