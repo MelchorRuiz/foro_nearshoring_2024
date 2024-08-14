@@ -1,56 +1,78 @@
 interface Speaker {
+    id: number;
     name: string;
     photo: string;
-    profile?: string;
+    profile?: string[];
     position: string;
-    social?: {
-        facebook?: string;
-        instagram?: string;
-        linkedin?: string;
-        twitter?: string;
-    }
 }
 
 /*
     {
-        "name": "Ricardo Haneine",
-        "photo": "https://via.placeholder.com/150",
-        "profile": "Es Ingeniero en Sistemas Computacionales por la Universidad de las Américas Puebla, Maestro en Ciencias en Ingeniería de Software por el Instituto Tecnológico de Estudios Superiores de Monterrey y Doctor en Ciencias de la Computación por la Universidad de las Américas Puebla. Actualmente es Director de la Facultad de Ingeniería de la Universidad de las Américas Puebla y profesor de tiempo completo en el Departamento de Ciencias de la Computación. Sus áreas de interés son la ingeniería de software, la calidad de software, la educación en ingeniería de software y la educación en línea.",
-        "position": "Director de la Facultad de Ingeniería",
-        "social": {
-            "facebook": "https://www.facebook.com/ricardo.haneine",
-            "instagram": "https://www.instagram.com/ricardo.haneine",
-            "linkedin": "https://www.linkedin.com/in/ricardo-haneine",
-            "twitter": "https://twitter.com/ricardo.haneine"
-        }
+        name: "Ricardo Haneine",
+        photo: "https://via.placeholder.com/150",
+        profile: "Es Ingeniero en Sistemas Computacionales por la Universidad de las Américas Puebla, Maestro en Ciencias en Ingeniería de Software por el Instituto Tecnológico de Estudios Superiores de Monterrey y Doctor en Ciencias de la Computación por la Universidad de las Américas Puebla. Actualmente es Director de la Facultad de Ingeniería de la Universidad de las Américas Puebla y profesor de tiempo completo en el Departamento de Ciencias de la Computación. Sus áreas de interés son la ingeniería de software, la calidad de software, la educación en ingeniería de software y la educación en línea.",
+        position: "Director de la Facultad de Ingeniería",
     }
 */
 
 const speaker : Speaker[] = [
     {
-        "name": "Bernd Rohde",
-        "photo": "/assets/profile.svg",
-        "position": "CEO Italian German Exhibition Company Mexico",
+        id: 1,
+        name: "Bernd Rohde",
+        photo: "/speakers/profile.svg",
+        position: "CEO Italian German Exhibition Company Mexico"
     },
     {
-        "name": "Miguel Leaman Rivas",
-        "photo": "/assets/profile.svg",
-        "position": "Presidente Ejecutivo de Agencia Por México",
+        id: 2,
+        name: "Miguel Leaman Rivas",
+        photo: "/speakers/miguel_angel_leaman.webp",
+        profile: [
+            "Es Licenciado en Economía egresado del Instituto Tecnológico Autónomo de México (ITAM). Actualmente se desempeña como Director General de la Agencia por México, empresa de consultoría y asesoría comercial, internacionalización de empresas, y atracción de inversión extranjera.",
+            "Trabajó durante once años en ProMéxico, desde su fundación hasta su extinción. Sus responsabilidades se enfocaron en apoyar las capacidades productivas de las empresas mexicanas, identificando y materializando oportunidades comerciales y de inversión en el exterior; asesorando a más de 300 empresas en temas de comercio exterior y logística para la exportación; así como vigorizando la participación de las compañías mexicanas en nuevos modelos de negocios, como la internacionalización de actividades de 280 empresas, apertura de más de 50 franquicias y licenciamiento de marcas en el extranjero; o el establecimiento de alianzas estratégicas por convenios de cooperación económica con organismos de la Comisión Europea, y de España, Alemania, Canadá, Estados Unidos, Japón, Honduras, o Chile."
+        ],
+        position: "Presidente Ejecutivo de Agencia Por México",
     },
     {
-        "name": "Carlos Alberto Yates García",
-        "photo": "/assets/profile.svg",
-        "position": "Presidente del Clúster de Energía del Estado de Chihuahua",
+        id: 3,
+        name: "Adriana Pulido Sandoval",
+        photo: "/speakers/adriana_pulido_sandoval.webp",
+        profile: [
+            "Experta en ESG, sostenibilidad y gestión de riesgos. Estratega con enfoque analítico y sistémico. Emprendedora serial y pionera en  sostenibilidad. Ha trabajado para Gobierno, sector privado y  ONG´s. Líder y mentora. Cuenta con habilidades para hacer análisis de perspectivas y escenarios a futuro con base en la  evolución de los riesgos socio-ambientales y las tendencias de los sistemas económicos, tecnológicos, regulatorios y de consumo.",
+            "Adriana cuenta con 17 años de experiencia en el desarrollo de la cultura en sostenibilidad corporativa en México. Durante ese tiempo ha liderado el acompañamiento y la guía a 180 de las empresas más importantes en México, ayudándolas en su camino en ESG y sostenibilidad."
+        ],
+        position: "CEO de Ilunka",
     },
     {
-        "name": "Laura Frias",
-        "photo": "/assets/profile.svg",
-        "position": "Coordinadora de Atracción de IED y Nearshoring de la AMPIP",
+        id: 4,
+        name: "Edgar Guzman Moreno",
+        photo: "/speakers/edgar_guzman_moreno.webp",
+        profile: [
+            "Cuenta con más de 15 años de experiencia profesional en áreas de Negocios Internacionales y Administración. Ha trabajado en Empresa de Sector Automotriz como Responsable de Compras Internacionales y Exportaciones, en una Agencia Aduanal y de Logística como Gerente Comercial y Gerente General. En el Sector Público trabajó en Bancomext Singapur y fue Director de Competitividad del Municipio de León.",
+            "Es Licenciado en Comercio Internacional egresado con Excelencia Académica y Mención Honorífica, cuenta con Maestría en Administración y realizó sus estudios de Doctorado en Administración. Terminó el Diplomado en Dirección Global de Cadena de Suministro en el Tec de Monterrey Campus León en 2018.",
+            "Actualmente es Director del Programa de Negocios Internacionales en el Tecnológico de Monterrey Campus León y Consultor en Educación Continua con alcance a más de 800 ejecutivos y gerentes de varios sectores en América Latina principalmente en temas de: Habilidades Gerenciales, Negociación, Megatendencias y Planeación Estratégica."
+        ],
+        position: "Director de la Carrera de Negocios Internacionales I T E S M - Campus León",
     },
     {
-        "name": "Ari - Ben Saks González",
-        "photo": "/assets/profile.svg",
-        "position": "Ernst & Young Global Specialist",
+        id: 5,
+        name: "Carlos Alberto Yates García",
+        photo: "/speakers/profile.svg",
+        position: "Presidente del Clúster de Energía del Estado de Chihuahua",
+    },
+    {
+        id: 6,
+        name: "Laura Frias",
+        photo: "/speakers/profile.svg",
+        position: "Coordinadora de Atracción de IED y Nearshoring de la AMPIP",
+    },
+    {
+        id: 7,
+        name: "Ari - Ben Saks González",
+        photo: "/speakers/ari_ben_saks.webp",
+        profile: [
+            "Tiene más de 20 años de experiencia como desarrollador de nuevos negocios en Asia, donde ayudó a cerrar y aterrizar muchos proyectos entre China, Taiwán y México. Estos proyectos fueron en diversos campos e industrias como minería, energía, manufactura, infraestructura, automotriz, telecomunicaciones y materias primas, entre otros. Estuvo a cargo de misiones comerciales de alto nivel visitando México o China, lo que incluyó actividades que abarcaron el desarrollo y la promoción del comercio y las inversiones bilaterales, centrándose en el aterrizaje suave de las inversiones chinas y taiwanesas en México (SIED) y las inversiones mexicanas en China. Estuvo a cargo de proporcionar servicios de consultoría para resolver problemas de política comercial y negocios relacionados con empresas de China que intentaban invertir en México y empresas mexicanas que invertían o iniciaban operaciones en China. Actualmente, es Director de Desarrollo de Nuevos Negocios de Asia y Associate Partner de Servicios Fiscales y Legales en EY México."
+        ],
+        position: "Ernst & Young Global Specialist",
     },
 ]
 
