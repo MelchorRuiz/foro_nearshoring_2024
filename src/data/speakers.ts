@@ -1,5 +1,4 @@
 interface Speaker {
-    id: number;
     name: string;
     photo: string;
     profile?: string[];
@@ -17,13 +16,11 @@ interface Speaker {
 
 const speaker : Speaker[] = [
     {
-        id: 1,
         name: "Bernd Rohde",
         photo: "/speakers/profile.svg",
         position: "CEO Italian German Exhibition Company Mexico"
     },
     {
-        id: 2,
         name: "Miguel Leaman Rivas",
         photo: "/speakers/miguel_angel_leaman.webp",
         profile: [
@@ -33,7 +30,6 @@ const speaker : Speaker[] = [
         position: "Presidente Ejecutivo de Agencia Por México",
     },
     {
-        id: 3,
         name: "Adriana Pulido Sandoval",
         photo: "/speakers/adriana_pulido_sandoval.webp",
         profile: [
@@ -43,7 +39,6 @@ const speaker : Speaker[] = [
         position: "CEO de Ilunka",
     },
     {
-        id: 4,
         name: "Edgar Guzman Moreno",
         photo: "/speakers/edgar_guzman_moreno.webp",
         profile: [
@@ -54,19 +49,31 @@ const speaker : Speaker[] = [
         position: "Director de la Carrera de Negocios Internacionales I T E S M - Campus León",
     },
     {
-        id: 5,
         name: "Carlos Alberto Yates García",
         photo: "/speakers/profile.svg",
         position: "Presidente del Clúster de Energía del Estado de Chihuahua",
     },
     {
-        id: 6,
         name: "Laura Frias",
         photo: "/speakers/profile.svg",
         position: "Coordinadora de Atracción de IED y Nearshoring de la AMPIP",
     },
     {
-        id: 7,
+        name: "Fernando Rivadeneyra",
+        photo: "/speakers/fernando_rivadeneyra.webp",
+        position: "Presidente Ejecutivo de la Antena IGAPE México y Socio Fundador de RT&DC Abogados"
+    },
+    {
+        name: "Carlos Alberto Yates",
+        photo: "/speakers/carlos_alberto_yates.webp",
+        position: "Presidente Clúster de Energía de Chihuahua",
+    },
+    {
+        name: "Laura Frías",
+        photo: "/speakers/laura_frias.webp",
+        position: "Coordinadora de Atracción de Inversiones y Nearshoring de la Asociación Mexicana de Parques Industriales Privados - AMPIP"
+    },
+    {
         name: "Ari - Ben Saks González",
         photo: "/speakers/ari_ben_saks.webp",
         profile: [
