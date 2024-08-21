@@ -31,8 +31,25 @@ interface Program {
 
 const program : Program[] = [
     {
-        name: "Inauguración del Foro y palabras de bienvenida",
+        name: "Inauguración Foro Nearshoring 2024",
         hours: "10:00 - 10:30 Hrs",
+        speakers: [
+            {
+                name: "Ramón Alfaro",
+                photo: "/speakers/profile.svg",
+                position: "Secretario de Desarrollo Económico y Sustentable de Guanajuato"
+            },
+            {
+                name: "Jorge Enrique Hernández",
+                photo: "/speakers/profile.svg",
+                position: "Secretario de Educación del Estado de Guanajuato"
+            },
+            {
+                name: "Bernd Rohde",
+                photo: "/speakers/profile.svg",
+                position: "CEO Italian German Exhibition Company Mexico"
+            },
+        ]
     },
     {
         name: "El rol de la geopolítica en el Nearshoring: oportunidades y desafíos del T-MEC como herramientas para el desarrollo regional",
@@ -40,7 +57,17 @@ const program : Program[] = [
         hours: "10:30 - 11:30 Hrs",
         speakers: [
             {
-                name: "Miguel Leaman Rivas",
+                name: "Ramón Alfaro",
+                photo: "/speakers/profile.svg",
+                position: "Secretario de Desarrollo Económico Sustentable de Guanajuato"
+            },
+            {
+                name: "Esaú Garza",
+                photo: "/speakers/esau_garza.webp",
+                position: "Secretario de Desarrollo Económico, Ciencia y Tecnología de Aguascalientes - SEDECyT"
+            },
+            {
+                name: "Miguel Leaman",
                 photo: "/speakers/miguel_angel_leaman.webp",
                 position: "Presidente Ejecutivo de Agencia Por México",
             },
@@ -50,6 +77,18 @@ const program : Program[] = [
         name: "Retos y soluciones en la logística e infraestructura para el Nearshoring",
         description: "Esta conversación proporcionará una plataforma para el intercambio de ideas y experiencias, fomentando la colaboración y el desarrollo de soluciones prácticas para los desafíos logísticos e infraestructurales del Nearshoring.",
         hours: "11:30 - 12:30 Hrs",
+        speakers: [
+            {
+                name: "Alfonso Valdés",
+                photo: "/speakers/alfonso_valdes.webp",
+                position: "Presidente del Consejo Nacional de la Industria Maquiladora y Manufacturera de Exportación – INDEX"
+            },
+            {
+                name: "Samuel Campos",
+                photo: "/speakers/samuel_campos.webp",
+                position: "Excecutive Managing Director de NEWMARK"
+            },
+        ]
     },
     {
         name: "Break",
@@ -60,6 +99,11 @@ const program : Program[] = [
         description: "La transformación digital está revolucionando el Nearshoring al redefinir la eficiencia y optimizar las cadenas de suministro. Únete a nosotros para descubrir cómo la tecnología está impulsando esta evolución y aprovecha nuestro entorno innovador para intercambiar ideas y desarrollar estrategias.",
         hours: "12:40 - 13:40 Hrs",
         speakers: [
+            {
+                name: "Salvador Portillo",
+                photo: "/speakers/salvador_portillo.webp",
+                position: "Presidente de la Cámara Nacional de Manufacturas Eléctricas - CANAME"
+            },
             {
                 name: "Adriana Pulido Sandoval",
                 photo: "/speakers/adriana_pulido_sandoval.webp",
@@ -82,6 +126,11 @@ const program : Program[] = [
                 photo: "/speakers/fernando_rivadeneyra.webp",
                 position: "Presidente Ejecutivo de la Antena IGAPE México y Socio Fundador de RT&DC Abogados"
             },
+            {
+                name: "Luis Alfonso González",
+                photo: "/speakers/profile.svg",
+                position: "Rector de la Universidad Iberoamericana Campus León"
+            },
         ]
     },
     {
@@ -100,7 +149,7 @@ const program : Program[] = [
                 position: "Coordinadora de Atracción de Inversiones y Nearshoring de la Asociación Mexicana de Parques Industriales Privados - AMPIP"
             },
             {
-                name: "Ari - Ben Saks González",
+                name: "Ari - Ben Saks",
                 photo: "/speakers/ari_ben_saks.webp",
                 position: "Ernst & Young Global Specialist",
             },

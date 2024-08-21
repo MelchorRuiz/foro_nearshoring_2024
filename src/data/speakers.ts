@@ -16,18 +16,44 @@ interface Speaker {
 
 const speaker : Speaker[] = [
     {
-        name: "Bernd Rohde",
+        name: "Ramón Alfaro",
         photo: "/speakers/profile.svg",
-        position: "CEO Italian German Exhibition Company Mexico"
+        position: "Secretario de Desarrollo Económico Sustentable de Guanajuato"
     },
     {
-        name: "Miguel Leaman Rivas",
+        name: "Esaú Garza",
+        photo: "/speakers/esau_garza.webp",
+        position: "Secretario de Desarrollo Económico, Ciencia y Tecnología de Aguascalientes - SEDECyT"
+    },
+    {
+        name: "Miguel Leaman",
         photo: "/speakers/miguel_angel_leaman.webp",
         profile: [
             "Es Licenciado en Economía egresado del Instituto Tecnológico Autónomo de México (ITAM). Actualmente se desempeña como Director General de la Agencia por México, empresa de consultoría y asesoría comercial, internacionalización de empresas, y atracción de inversión extranjera.",
             "Trabajó durante once años en ProMéxico, desde su fundación hasta su extinción. Sus responsabilidades se enfocaron en apoyar las capacidades productivas de las empresas mexicanas, identificando y materializando oportunidades comerciales y de inversión en el exterior; asesorando a más de 300 empresas en temas de comercio exterior y logística para la exportación; así como vigorizando la participación de las compañías mexicanas en nuevos modelos de negocios, como la internacionalización de actividades de 280 empresas, apertura de más de 50 franquicias y licenciamiento de marcas en el extranjero; o el establecimiento de alianzas estratégicas por convenios de cooperación económica con organismos de la Comisión Europea, y de España, Alemania, Canadá, Estados Unidos, Japón, Honduras, o Chile."
         ],
         position: "Presidente Ejecutivo de Agencia Por México",
+    },
+    {
+        name: "Alfonso Valdés",
+        photo: "/speakers/alfonso_valdes.webp",
+        position: "Presidente del Consejo Nacional de la Industria Maquiladora y Manufacturera de Exportación – INDEX"
+    },
+    {
+        name: "Samuel Campos",
+        photo: "/speakers/samuel_campos.webp",
+        profile: [
+            "Samuel Campos lleva 30 años promoviendo la atracción de inversión extranjera directa hacia México y Latinoamérica. Desde sus inicios como Director de Promoción Económica en el gobierno de Aguascalientes y en su etapa como  Director de Inversión Extranjera del estado de Guanajuato.",
+            "Durante su carrera, ha sido partícipe en la creación de más de 60 mil empleos  directos en el país y más de 5,000 millones de dólares en proyectos de inversión en  Latinoamérica. Además, Samuel ha sido miembro del Consejo Consultivo de Desarrollo  Económico de la ciudad de León. ",
+            "Ha sido responsable de la creación, manejo, consolidación y operación de parques  industriales en el país. Fue designado como Senior Vice Presidente de la prestigiosa Empresa CBRE, donde permaneció por 12 años a cargo de la región Bajío.",
+            "También ha participado como conferencista y  panelista en diversos foros en México, Estados Unidos, Argentina, Asia y Europa,  donde ha participado activamente en tópicos como: Procesos de Inversión en México,  Nearshoring y Tendencias Industriales de Latinoamérica."
+        ],
+        position: "Excecutive Managing Director de NEWMARK"
+    },
+    {
+        name: "Salvador Portillo",
+        photo: "/speakers/salvador_portillo.webp",
+        position: "Presidente de la Cámara Nacional de Manufacturas Eléctricas - CANAME"
     },
     {
         name: "Adriana Pulido Sandoval",
@@ -49,19 +75,14 @@ const speaker : Speaker[] = [
         position: "Director de la Carrera de Negocios Internacionales I T E S M - Campus León",
     },
     {
-        name: "Carlos Alberto Yates García",
-        photo: "/speakers/profile.svg",
-        position: "Presidente del Clúster de Energía del Estado de Chihuahua",
-    },
-    {
-        name: "Laura Frias",
-        photo: "/speakers/profile.svg",
-        position: "Coordinadora de Atracción de IED y Nearshoring de la AMPIP",
-    },
-    {
         name: "Fernando Rivadeneyra",
         photo: "/speakers/fernando_rivadeneyra.webp",
         position: "Presidente Ejecutivo de la Antena IGAPE México y Socio Fundador de RT&DC Abogados"
+    },
+    {
+        name: "Luis Alfonso González",
+        photo: "/speakers/profile.svg",
+        position: "Rector de la Universidad Iberoamericana Campus León"
     },
     {
         name: "Carlos Alberto Yates",
