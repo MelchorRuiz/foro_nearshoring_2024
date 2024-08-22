@@ -23,6 +23,11 @@ const speaker : Speaker[] = [
     {
         name: "Esaú Garza",
         photo: "/speakers/esau_garza.webp",
+        profile: [
+            "Secretario de Desarrollo Económico, Ciencia y Tecnología de Aguascalientes. Es Licenciado en Comercio Exterior, cuenta con experiencia como consejero Comercial en las embajadas de México en Japón (2008-2013) y Australia (2015 - 2019), fue secretario de Desarrollo Económico para el Estado de Aguascalientes (2013-2015).",
+            "Destaca por su experiencia y trayectoria en la promoción de México como destino de inversión con un fuerte enfoque a la industria automotriz y de manufacturas avanzadas.",
+            "Certificado como Perito Traductor Oficial en los idiomas inglés y japonés. Ha impartido ponencias en relación con las técnicas de negociación aplicables a la cultura japonesa en universidades y foros, así mismo ha participado en seminarios sobre oportunidades de negocios en sectores estratégicos ante empresarios."
+        ],
         position: "Secretario de Desarrollo Económico, Ciencia y Tecnología de Aguascalientes - SEDECyT"
     },
     {
@@ -87,6 +92,10 @@ const speaker : Speaker[] = [
     {
         name: "Carlos Alberto Yates",
         photo: "/speakers/carlos_alberto_yates.webp",
+        profile: [
+            "Cuenta con una Maestría en Administración Pública y un Doctorado en Filosofía de la Educación y Administración de Estadísticas Experimentales ambos por parte de la Universidad Estatal de Nuevo México. Es egresado de la carrera de  Ingeniería Química por el Instituto Tecnológico de Estudios Superiores de Monterrey – ITESM, Campus Monterrey. Actualmente es Presidente del Clúster de Energía de Chihuahua.",
+            "Gracias a su perfil profesional y académico mantiene un papel de liderazgo en  el desarrollo de proyectos de cooperación, investigación, innovación y mejores prácticas  tanto con diferentes clústeres afines y similares de otros estados, como con instituciones  de enseñanza superior como el Colegio de Ingenieros Mecánicos y Electricistas."
+        ],
         position: "Presidente Clúster de Energía de Chihuahua",
     },
     {
