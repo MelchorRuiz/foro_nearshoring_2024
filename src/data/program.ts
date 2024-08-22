@@ -52,7 +52,7 @@ const program : Program[] = [
         ]
     },
     {
-        name: "El rol de la geopolítica en el Nearshoring: oportunidades y desafíos del T-MEC como herramientas para el desarrollo regional",
+        name: "El rol de la geopolítica en el Nearshoring: Oportunidades y desafíos del T-MEC como herramientas para el desarrollo regional",
         description: "La sesión analizará cómo las dinámicas geopolíticas impactan el Nearshoring, una práctica en crecimiento que permite a las empresas reducir costos y mejorar la eficiencia al acercar sus operaciones a mercados clave.",
         hours: "10:30 - 11:30 Hrs",
         speakers: [
@@ -95,7 +95,7 @@ const program : Program[] = [
         hours: "12:30 - 12:40 Hrs",
     },
     {
-        name: "Innovación y avances en la transformación digital: el papel de la tecnología en el Nearshoring",
+        name: "Innovación y avances en la transformación digital: El papel de la tecnología en el Nearshoring",
         description: "La transformación digital está revolucionando el Nearshoring al redefinir la eficiencia y optimizar las cadenas de suministro. Únete a nosotros para descubrir cómo la tecnología está impulsando esta evolución y aprovecha nuestro entorno innovador para intercambiar ideas y desarrollar estrategias.",
         hours: "12:40 - 13:40 Hrs",
         speakers: [
@@ -134,7 +134,7 @@ const program : Program[] = [
         ]
     },
     {
-        name: "El futuro del Nearshoring: tendencias y proyecciones",
+        name: "El futuro del Nearshoring: Tendencias y proyecciones",
         description: "Sumérgete en el futuro del Nearshoring y conoce las tendencias y proyecciones que definirán su evolución. Únete a nuestra sesión para descubrir cómo anticipar cambios, aprovechar nuevas oportunidades y optimizar tus operaciones al máximo. ",
         hours: "14:40 - 15:40 Hrs",
         speakers: [
