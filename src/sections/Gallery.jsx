@@ -91,7 +91,7 @@ export default function Gallery() {
 
   return (
     <div>
-      <Images galleryID="asas" images={imageGroups[page]} />
+      <Images galleryID="gallery" images={imageGroups[page]} />
       <div className='flex justify-center pt-5'>
         <nav aria-label="Page navigation example">
           <ul className="flex items-center -space-x-px h-8 text-sm">
