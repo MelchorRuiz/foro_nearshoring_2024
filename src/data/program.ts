@@ -46,7 +46,7 @@ const program : Program[] = [
             },
             {
                 name: "Bernd Rohde",
-                photo: "/speakers/profile.svg",
+                photo: "/speakers/brend_rohde.webp",
                 position: "CEO Italian German Exhibition Company Mexico"
             },
         ]
