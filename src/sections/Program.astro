@@ -50,7 +50,7 @@ const i18n = getI18N(Astro.currentLocale);
                       <span class="font-bold text-black text-xl">
                         {item.hours}
                       </span>
-                      <span class="text-left flex-1 text-black ">
+                      <span class="text-left flex-1 text-lg text-primary font-bold ">
                         {item.name}
                       </span>
                     </div>
@@ -84,7 +84,7 @@ const i18n = getI18N(Astro.currentLocale);
                   >
                     {item.description && (
                       <div class="pb-2">
-                        <p>{item.description}</p>
+                        <p class="text-sm">{item.description}</p>
                       </div>
                     )}
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-x-3 gap-y-1">
