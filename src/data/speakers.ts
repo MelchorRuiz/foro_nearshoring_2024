@@ -17,7 +17,11 @@ interface Speaker {
 const speaker : Speaker[] = [
     {
         name: "Ramón Alfaro",
-        photo: "/speakers/profile.svg",
+        photo: "/speakers/ramon_alfaro.webp",
+        profile: [
+            "Es Licenciado en Relaciones Internacionales por la Universidad Nacional Autónoma de México (UNAM). Su trayectoria incluye cargos municipales en la ciudad de León y otros puestos dentro del sector público estatal.",
+            "Como algunas de sus actividades sobresalientes destaca el haber sido responsable de crear la Subsecretaría de Apoyo a las Micro, Pequeñas y Medianas Empresas, líder de programas como Mi Plaza y En Marcha; entre otras. Antes de su nuevo nombramiento se desempeñó como subsecretario de empleo y formación laboral."
+        ],
         position: "Secretario de Desarrollo Económico Sustentable de Guanajuato"
     },
     {

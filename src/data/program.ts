@@ -36,7 +36,7 @@ const program : Program[] = [
         speakers: [
             {
                 name: "Ramón Alfaro",
-                photo: "/speakers/profile.svg",
+                photo: "/speakers/ramon_alfaro.webp",
                 position: "Secretario de Desarrollo Económico y Sustentable de Guanajuato"
             },
             {
@@ -58,7 +58,7 @@ const program : Program[] = [
         speakers: [
             {
                 name: "Ramón Alfaro",
-                photo: "/speakers/profile.svg",
+                photo: "/speakers/ramon_alfaro.webp",
                 position: "Secretario de Desarrollo Económico Sustentable de Guanajuato"
             },
             {
