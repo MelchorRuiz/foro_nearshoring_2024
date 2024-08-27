@@ -38,12 +38,7 @@ const program : Program[] = [
                 name: "Ramón Alfaro",
                 photo: "/speakers/ramon_alfaro.webp",
                 position: "Secretario de Desarrollo Económico y Sustentable de Guanajuato"
-            },
-            {
-                name: "Jorge Enrique Hernández",
-                photo: "/speakers/profile.svg",
-                position: "Secretario de Educación del Estado de Guanajuato"
-            },
+            },            
             {
                 name: "Bernd Rohde",
                 photo: "/speakers/brend_rohde.webp",
