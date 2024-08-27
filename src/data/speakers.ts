@@ -68,8 +68,8 @@ const speaker : Speaker[] = [
         name: "Adriana Pulido Sandoval",
         photo: "/speakers/adriana_pulido_sandoval.webp",
         profile: [
-            "Experta en ESG, sostenibilidad y gestión de riesgos. Estratega con enfoque analítico y sistémico. Emprendedora serial y pionera en  sostenibilidad. Ha trabajado para Gobierno, sector privado y  ONG´s. Líder y mentora. Cuenta con habilidades para hacer análisis de perspectivas y escenarios a futuro con base en la  evolución de los riesgos socio-ambientales y las tendencias de los sistemas económicos, tecnológicos, regulatorios y de consumo.",
-            "Adriana cuenta con 17 años de experiencia en el desarrollo de la cultura en sostenibilidad corporativa en México. Durante ese tiempo ha liderado el acompañamiento y la guía a 180 de las empresas más importantes en México, ayudándolas en su camino en ESG y sostenibilidad."
+            "Experta en ESG, sostenibilidad y gestión de riesgos, estratega con enfoque analítico y sistémico. Ha trabajado con Gobierno, sector privado y ONG’s, al contar con habilidades para hacer análisis de perspectivas y escenarios a futuro con base en la evolución de los riesgos socio-ambientales y las tendencias de los sistemas económicos, tecnológicos, regulatorios y de consumo.",
+            "Emprendedora serial y pionera en sostenibilidad. Adriana cuenta con 17 años de experiencia en el desarrollo de la cultura en sostenibilidad corporativa en más de 12 industrias en México. Durante ese tiempo ha liderado el acompañamiento a 180 de las empresas más importantes en México, ayudándolas en su camino en ESG y sostenibilidad."
         ],
         position: "CEO de Ilunka",
     },
@@ -105,6 +105,11 @@ const speaker : Speaker[] = [
     {
         name: "Laura Frías",
         photo: "/speakers/laura_frias.webp",
+        profile: [
+            "Es Coordinadora de Promoción IED de la Asociación Mexicana de Parques Industriales Privados – AMPIP, previo a ello se desempeñó como Consultora Externa de la Secretaría de Economía, y como Consultora experta para la región Asia - Pacífico, en BRATUS Consultores.",
+            "Tiene experiencia en promoción internacional de negocios, trabajando como Consejera en la Embajada de México en Corea del Sur, y como Directora para Asia, Oceanía y Medio Oriente en ProMéxico, atendiendo temas como identificación, promoción y desarrollo de oportunidades comerciales, atracción de IED a México e internacionalización de empresas mexicanas a esa región del mundo.",
+            "Académicamente es Licenciada en Relaciones Internacionales con la especialidad en Comercio y Negocios Internacionales, egresada de la UNAM, cuenta con varios diplomados y orgullosamente fue condecorada con la Medalla Gabino Barreda por su Alma Mater, Generación 2009."
+        ],
         position: "Coordinadora de Atracción de Inversiones y Nearshoring de la Asociación Mexicana de Parques Industriales Privados - AMPIP"
     },
     {
