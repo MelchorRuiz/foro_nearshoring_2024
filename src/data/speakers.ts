@@ -46,6 +46,12 @@ const speaker : Speaker[] = [
     {
         name: "Alfonso Valdés",
         photo: "/speakers/alfonso_valdes.webp",
+        profile: [
+            "Nació en Irapuato, académicamente es Ingeniero Industrial egresado del Instituto Tecnológico de Celaya, cuenta con una Maestría en Finanzas por parte del ITESM y es Miembro Activo del American Academy of Financial Management – Capítulo Latinoamérica.",
+            "Dentro de su desarrollo profesional, al día de hoy funge como Secretario de INDEX Nacional, Presidente de IINEX Guanajuato y Director del Sector Alimentos y Agroindustria de INDEX Nacional.",
+            "Es integrante del Cuarto de Junto de la SE en la Negociación y seguimiento del TMEC y Apoderado Aduanal y Gerente de Comercio Exterior del Grupo Mar Bran (Empresa líder en exportación de Vegetales Congelados y Frescos).",
+            "También es Consejero de diversos organismos, públicos y privados, principalmente relacionados con Comercio Internacional."
+        ],
         position: "Presidente del Consejo Nacional de la Industria Maquiladora y Manufacturera de Exportación – INDEX"
     },
     {
@@ -86,6 +92,12 @@ const speaker : Speaker[] = [
     {
         name: "Fernando Rivadeneyra",
         photo: "/speakers/fernando_rivadeneyra.webp",
+        profile: [
+            "Es socio patrimonial de la firma Rivadeneyra Treviño, especializada en Derecho Internacional Privado, Fusiones y Adquisiciones y Derecho Corporativo General, con clientes en México y otros países.",
+            "Cuenta con un Business Degree del Suomi College, de Michigan, Estados Unidos y una Licenciatura en Derecho por la Universidad Iberoamericana Campus Santa Fe.",
+            "Es Asociado a la Barra Internacional de Abogados y miembro de la Association of European Attorneys, forma parte del patronato de la Universidad Iberoamericana y es miembro del International Business Law Consortium.",
+            "Su despacho representa en nuestro país la Antena IGAPE México, organismo español de promoción de negocios internacionales entre empresas mexicanas y gallegas."            
+        ],
         position: "Presidente Ejecutivo de la Antena IGAPE México y Socio Fundador de RT&DC Abogados"
     },
     {
@@ -121,6 +133,22 @@ const speaker : Speaker[] = [
         ],
         position: "Ernst & Young Global Specialist",
     },
+    {
+        name: "Sergio Contreras",
+        photo: "/speakers/sergiocontreras.webp",
+        profile: [
+            "Sherpa del Business 20 por México y Sherpa del Capitulo México del Consejo Empresarial de la Alianza del Pacifico.",
+            "Participa por el COMCE en el CCE, Consejero de COPARMEX León, mesa Directiva CONCAMIN y Consejero en BANCOMEXT, fue Pte. de la Asociación de Instituciones Financieras Internacionales.",
+            "Ha sido representante de Banca Di Roma en México, DG del Centro de Excelencia en Gobierno Corporativo y Director del Área Internacional de BANCOMEXT.",
+            "Es Licenciado en Administración por la UNAM. Maestría en Administración por la Universidad de Nápoles, Italia y por la UNAM."
+        ],
+        position: "Presidente Ejecutivo del Consejo Empresarial Mexicano de Comercio Exterior, Inversión y Tecnología - COMCE, Pte. del Consejo de Administración de Pirelli México y de Capital It Mx, y Vicepte. de la Cámara Nacional de la Industria Hulera",
+    },
+    {
+        name: "Héctor López Santillana",
+        photo: "/speakers/hectorlopez.webp",
+        position: "Director General de Puerto Interior Guanajuato"
+    }
 ]
 
 export default speaker;

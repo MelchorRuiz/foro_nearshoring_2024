@@ -44,6 +44,16 @@ const program : Program[] = [
                 photo: "/speakers/brend_rohde.webp",
                 position: "CEO Italian German Exhibition Company Mexico"
             },
+            {
+                name: "Esaú Garza",
+                photo: "/speakers/esau_garza.webp",
+                position: "Secretario de Desarrollo Económico, Ciencia y Tecnología de Aguascalientes - SEDECyT"
+            },
+            {
+                name: "Sergio Contreras",
+                photo: "/speakers/sergiocontreras.webp",
+                position: "Presidente Ejecutivo del Consejo Empresarial Mexicano de Comercio Exterior, Inversión y Tecnología - COMCE, Pte. del Consejo de Administración de Pirelli México y de Capital It Mx, y Vicepte. de la Cámara Nacional de la Industria Hulera"
+            }
         ]
     },
     {
@@ -79,6 +89,11 @@ const program : Program[] = [
                 position: "Presidente del Consejo Nacional de la Industria Maquiladora y Manufacturera de Exportación – INDEX"
             },
             {
+                name: "Héctor López Santillana",
+                photo: "/speakers/hectorlopez.webp",
+                position: "Director General de Puerto Interior Guanajuato"
+            },
+            {
                 name: "Samuel Campos",
                 photo: "/speakers/samuel_campos.webp",
                 position: "Excecutive Managing Director de NEWMARK"
@@ -95,9 +110,9 @@ const program : Program[] = [
         hours: "12:40 - 13:40 Hrs",
         speakers: [
             {
-                name: "Salvador Portillo",
-                photo: "/speakers/salvador_portillo.webp",
-                position: "Presidente de la Cámara Nacional de Manufacturas Eléctricas - CANAME"
+                name: "Rafael Arteaga Vega",
+                photo: "/speakers/profile.svg",
+                position: "Director de Normalización y Comercio de la Cámara Nacional de Manufacturas Eléctricas - CANAME"
             },
             {
                 name: "Adriana Pulido Sandoval",
@@ -120,6 +135,11 @@ const program : Program[] = [
                 name: "Fernando Rivadeneyra",
                 photo: "/speakers/fernando_rivadeneyra.webp",
                 position: "Presidente Ejecutivo de la Antena IGAPE México y Socio Fundador de RT&DC Abogados"
+            },
+            {
+                name: "Sergio Contreras",
+                photo: "/speakers/sergiocontreras.webp",
+                position: "Presidente Ejecutivo del Consejo Empresarial Mexicano de Comercio Exterior, Inversión y Tecnología - COMCE, Pte. del Consejo de Administración de Pirelli México y de Capital It Mx, y Vicepte. de la Cámara Nacional de la Industria Hulera"
             },
             {
                 name: "Luis Alfonso González",
