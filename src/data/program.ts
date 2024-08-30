@@ -61,11 +61,11 @@ const program : Program[] = [
         description: "La sesión analizará cómo las dinámicas geopolíticas impactan el Nearshoring, una práctica en crecimiento que permite a las empresas reducir costos y mejorar la eficiencia al acercar sus operaciones a mercados clave.",
         hours: "10:30 - 11:30 Hrs",
         speakers: [
-            {
+            /*{
                 name: "Ramón Alfaro",
                 photo: "/speakers/ramon_alfaro.webp",
                 position: "Secretario de Desarrollo Económico Sustentable de Guanajuato"
-            },
+            },*/
             {
                 name: "Esaú Garza",
                 photo: "/speakers/esau_garza.webp",
