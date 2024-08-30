@@ -27,66 +27,25 @@ const i18n = getI18N(Astro.currentLocale)
     </svg>
     {i18n.partners.title}
   </h3>
-  <div class='grid grid-cols-2 md:grid-cols-4 gap-6 pt-5'>
-    <div class='flex flex-col gap-6 items-center'>
-      <img
-        class='object-contain max-h-52'
-        src='/partners/index.webp'
-        alt='index logo'
-      />
-      <img
-        class='object-contain max-h-52'
-        src='/partners/newmark.webp'
-        alt='newmark logo'
-      />
-    </div>
-    <div class='flex flex-col gap-6 items-center'>
-      <img
-        class='object-contain max-h-52'
-        src='/partners/ilunka.webp'
-        alt='ilunka logo'
-      />
-      <img
-        class='object-contain max-h-52'
-        src='/partners/caname.webp'
-        alt='caname logo'
-      />
-    </div>
-    <div class='flex flex-col gap-6 items-center'>
-      <img
-        class='object-contain max-h-52'
-        src='/partners/igape.webp'
-        alt='igape logo'
-      />
-      <img
-        class='object-contain max-h-52'
-        src='/partners/ampip.webp'
-        alt='ampip logo'
-      />
-    </div>
-    <div class='flex flex-col gap-6 items-center'>
-      <img
-        class='object-contain max-h-52'
-        src='/partners/sedecyt.webp'
-        alt='sedecyt logo'
-      />
-      <img
-        class='object-contain max-h-52'
-        src='/partners/cluster.webp'
-        alt='cluster logo'
-      />
-    </div>
+  <div class='grid md:flex gap-6 pt-5 items-center justify-center'>
+    <img width='200' src='/partners/index.webp' alt='index logo' />
+    <img width='200' src='/partners/newmark.webp' alt='newmark logo' />
+    <img width='200' src='/partners/ilunka.webp' alt='ilunka logo' />
+    <img width='100' src='/partners/caname.webp' alt='caname logo' />
+    <img width='150' src='/partners/igape.webp' alt='igape logo' />
   </div>
-  <div class='grid md:flex gap-10 items-center justify-center'>
+  <div class='grid md:flex gap-10 pt-5 items-center justify-center'>
+    <img width='200' src='/partners/ampip.webp' alt='ampip logo' />
+    <img width='200' src='/partners/sedecyt.webp' alt='sedecyt logo' />
+    <img width='100' src='/partners/cluster.webp' alt='cluster logo' />
     <img
-      class='object-contain max-h-52'
+      width='200'
       src='/partners/puertointeriorgto.webp'
       alt='Puerto Interior GTO'
     />
-    <img
-      class='object-contain max-h-52'
-      src='/partners/comce.webp'
-      alt='COMCE'
-    />
   </div>
 </section>
+<div class='grid md:flex gap-10 items-center justify-center'>
+  <img width='200' src='/partners/comce.webp' alt='COMCE' />
+  <img width='200' src='/partners/tecmonterrey.webp' alt='TecMonterrey' />
+</div>
