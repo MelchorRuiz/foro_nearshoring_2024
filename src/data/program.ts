@@ -42,7 +42,7 @@ const program : Program[] = [
             {
                 name: "Bernd Rohde",
                 photo: "/speakers/brend_rohde.webp",
-                position: "CEO Italian German Exhibition Company Mexico"
+                position: "Director General y Miembro del Consejo de Administración de Italian German Exhibition Company Canada / Mexico"
             },
             {
                 name: "Esaú Garza",
@@ -61,11 +61,11 @@ const program : Program[] = [
         description: "La sesión analizará cómo las dinámicas geopolíticas impactan el Nearshoring, una práctica en crecimiento que permite a las empresas reducir costos y mejorar la eficiencia al acercar sus operaciones a mercados clave.",
         hours: "10:30 - 11:30 Hrs",
         speakers: [
-            /*{
-                name: "Ramón Alfaro",
-                photo: "/speakers/ramon_alfaro.webp",
-                position: "Secretario de Desarrollo Económico Sustentable de Guanajuato"
-            },*/
+            {
+                name: "Alejandro Hernández Fonseca",
+                photo: "/speakers/alejandrohernandez.webp",
+                position: "Subsecretario de Atracción de Inversiones de la Secretaría de Desarrollo Económico Sustentable de Guanajuato"
+            },
             {
                 name: "Esaú Garza",
                 photo: "/speakers/esau_garza.webp",
@@ -111,7 +111,7 @@ const program : Program[] = [
         speakers: [
             {
                 name: "Rafael Arteaga Vega",
-                photo: "/speakers/profile.svg",
+                photo: "/partners/caname.webp",
                 position: "Director de Normalización y Comercio de la Cámara Nacional de Manufacturas Eléctricas - CANAME"
             },
             {
@@ -143,7 +143,7 @@ const program : Program[] = [
             },
             {
                 name: "Luis Alfonso González",
-                photo: "/speakers/profile.svg",
+                photo: "/speakers/luisalfonso.webp",
                 position: "Rector de la Universidad Iberoamericana Campus León"
             },
         ]

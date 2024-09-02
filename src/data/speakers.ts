@@ -66,9 +66,9 @@ const speaker : Speaker[] = [
         position: "Excecutive Managing Director de NEWMARK"
     },
     {
-        name: "Salvador Portillo",
-        photo: "/speakers/salvador_portillo.webp",
-        position: "Presidente de la Cámara Nacional de Manufacturas Eléctricas - CANAME"
+        name: "Rafael Arteaga Vega",
+        photo: "/partners/caname.webp",
+        position: "Director de Normalización y Comercio de la Cámara Nacional de Manufacturas Eléctricas - CANAME"
     },
     {
         name: "Adriana Pulido Sandoval",
@@ -102,7 +102,13 @@ const speaker : Speaker[] = [
     },
     {
         name: "Luis Alfonso González",
-        photo: "/speakers/profile.svg",
+        photo: "/speakers/luisalfonso.webp",
+        profile: [
+            "Es Licenciado en Filosofía y Ciencias Sociales y Maestro en Filosofía y Ciencias Sociales por el ITESO, es Bachiller en Teología de la Pontificia Universidad de México y la Licenciado en Ciencias Religiosas por la Universidad Iberoamericana CdMx, actualmente es candidato a Doctor en Filosofía por la Universidad de Granada.",
+            "Ha colaborado como académico del Departamento de Filosofía y Humanidades en prestigiosas instituciones de enseñanza superior en México y ha realizado proyectos de investigación en la Universidad de Granada.",
+            "Ha publicado diversos escritos en reconocidas revistas especializadas en México y el extranjero.",
+            "Colabora desde el año 2020 en la Universidad Iberoamericana Campus León de la que fue nombrado Rector en enero del 2022."
+        ],
         position: "Rector de la Universidad Iberoamericana Campus León"
     },
     {
@@ -148,7 +154,22 @@ const speaker : Speaker[] = [
         name: "Héctor López Santillana",
         photo: "/speakers/hectorlopez.webp",
         position: "Director General de Puerto Interior Guanajuato"
-    }
+    },
+    {
+        name: "Alejandro Hernández Fonseca",
+        photo: "/speakers/alejandrohernandez.webp",
+        profile: [
+            "Director General de Atracción de Inversiones. Secretaría de Desarrollo Económico Gobierno del Estado de Guanajuato (febrero 2015 – septiembre 2018)",
+            "Director de Atracción de inversiones. Secretaría de Desarrollo Económico. Gobierno del Estado de Guanajuato (septiembre de 2012 a febrero de 2015).",
+            "Coordinador de Inversiones Extranjeras. Secretaría de Desarrollo Económico Gobierno del Estado de Guanajuato (julio de 2008 a septiembre de 2012).",
+            "Gerencia de Producción y actividades de implementación de la norma de calidad ISO 9001 en Polímeros y Derivados (empresa mexicana dedicada a la producción de materiales no tejidos y componentes automotrices).",
+            "Gerente General de Empresa de Transporte Local (Transportes del Chichimeca) con actividades en Logística y Planificación.",
+            "Consultor en International Business Solutions, firma consultora en la Ciudad de México",
+            "Gerente de Producción en MEXCUERO (Curtiduría Local de Cuero) en la ciudad de León, Guanajuato",
+            "Ingeniero Industrial Mención en Pensamiento Sistémico por el ITESM"
+        ],
+        position: "Subsecretario de Atracción de Inversiones de la Secretaría de Desarrollo Económico Sustentable de Guanajuato"
+    },
 ]
 
 export default speaker;
