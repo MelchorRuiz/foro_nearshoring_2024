@@ -138,18 +138,7 @@ const speaker : Speaker[] = [
             "Estuvo a cargo de proporcionar servicios de consultoría para resolver problemas de política comercial y negocios relacionados con empresas de China que intentaban invertir en México y empresas mexicanas que invertían o iniciaban operaciones en China. Actualmente, es Director de Desarrollo de Nuevos Negocios de Asia y Associate Partner de Servicios Fiscales y Legales en EY México."
         ],
         position: "Ernst & Young Global Specialist",
-    },
-    {
-        name: "Sergio Contreras",
-        photo: "/speakers/sergiocontreras.webp",
-        profile: [
-            "Sherpa del Business 20 por México y Sherpa del Capitulo México del Consejo Empresarial de la Alianza del Pacifico.",
-            "Participa por el COMCE en el CCE, Consejero de COPARMEX León, mesa Directiva CONCAMIN y Consejero en BANCOMEXT, fue Pte. de la Asociación de Instituciones Financieras Internacionales.",
-            "Ha sido representante de Banca Di Roma en México, DG del Centro de Excelencia en Gobierno Corporativo y Director del Área Internacional de BANCOMEXT.",
-            "Es Licenciado en Administración por la UNAM. Maestría en Administración por la Universidad de Nápoles, Italia y por la UNAM."
-        ],
-        position: "Presidente Ejecutivo del Consejo Empresarial Mexicano de Comercio Exterior, Inversión y Tecnología - COMCE, Pte. del Consejo de Administración de Pirelli México y de Capital It Mx, y Vicepte. de la Cámara Nacional de la Industria Hulera",
-    },
+    },    
     {
         name: "Héctor López Santillana",
         photo: "/speakers/hectorlopez.webp",

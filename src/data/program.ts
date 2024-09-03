@@ -48,12 +48,7 @@ const program : Program[] = [
                 name: "Esaú Garza",
                 photo: "/speakers/esau_garza.webp",
                 position: "Secretario de Desarrollo Económico, Ciencia y Tecnología de Aguascalientes - SEDECyT"
-            },
-            {
-                name: "Sergio Contreras",
-                photo: "/speakers/sergiocontreras.webp",
-                position: "Presidente Ejecutivo del Consejo Empresarial Mexicano de Comercio Exterior, Inversión y Tecnología - COMCE, Pte. del Consejo de Administración de Pirelli México y de Capital It Mx, y Vicepte. de la Cámara Nacional de la Industria Hulera"
-            }
+            }            
         ]
     },
     {
@@ -135,12 +130,7 @@ const program : Program[] = [
                 name: "Fernando Rivadeneyra",
                 photo: "/speakers/fernando_rivadeneyra.webp",
                 position: "Presidente Ejecutivo de la Antena IGAPE México y Socio Fundador de RT&DC Abogados"
-            },
-            {
-                name: "Sergio Contreras",
-                photo: "/speakers/sergiocontreras.webp",
-                position: "Presidente Ejecutivo del Consejo Empresarial Mexicano de Comercio Exterior, Inversión y Tecnología - COMCE, Pte. del Consejo de Administración de Pirelli México y de Capital It Mx, y Vicepte. de la Cámara Nacional de la Industria Hulera"
-            },
+            },           
             {
                 name: "Luis Alfonso González",
                 photo: "/speakers/luisalfonso.webp",
