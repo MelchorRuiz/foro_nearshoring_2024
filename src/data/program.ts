@@ -137,9 +137,14 @@ const program : Program[] = [
                 position: "Presidente Ejecutivo de la Antena IGAPE México y Socio Fundador de RT&DC Abogados"
             },           
             {
-                name: "Luis Alfonso González",
-                photo: "/speakers/luisalfonso.webp",
-                position: "Rector de la Universidad Iberoamericana Campus León"
+                name: "Francisco Méndez Aguiñaga",
+                photo: "/speakers/profile.svg",
+                position: "Director General del COMCE Bajío"
+            },
+            {
+                name: "Sindri Deyanira Ramos Arévalo",
+                photo: "/speakers/profile.svg",
+                position: "Directora de la maestría en Logística Internacional y Cadena de Suministro de la Universidad Iberoamericana Campus León"
             },
         ]
     },
