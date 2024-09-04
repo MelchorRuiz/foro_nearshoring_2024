@@ -159,6 +159,17 @@ const speaker : Speaker[] = [
         ],
         position: "Subsecretario de Atracción de Inversiones de la Secretaría de Desarrollo Económico Sustentable de Guanajuato"
     },
+    {
+        name: "Sindri D. Ramos",
+        photo: "/speakers/sindriramos.webp",
+        profile: [
+            "Es Licenciada en Comercio Internacional, y Maestra en Ibero León en Administración con especialidad en Logística, y Doctora en Administración. ",
+            "Cuenta con experiencia en relaciones públicas, negocios internacionales, logística, tráfico internacional y docencia.",
+            "Especialista en promoción y apertura de mercados para productos mexicanos en el extranjero, para lo cual ha participado en ferias y misiones internacionales, y ha sido docente en las áreas de negocios internacionales, logística internacional y liderazgo. ",
+            "Es conferencista internacional en temas de negocios, habilidades blandas, liderazgo y sostenibilidad.",            
+        ],
+        position: "Directora de la maestría en Logística Internacional y Cadena de Suministro de la Universidad Iberoamericana Campus León"
+    },
 ]
 
 export default speaker;

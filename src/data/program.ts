@@ -143,7 +143,7 @@ const program : Program[] = [
             },
             {
                 name: "Sindri Deyanira Ramos Arévalo",
-                photo: "/speakers/profile.svg",
+                photo: "/speakers/sindriramos.webp",
                 position: "Directora de la maestría en Logística Internacional y Cadena de Suministro de la Universidad Iberoamericana Campus León"
             },
         ]
