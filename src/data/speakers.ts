@@ -99,18 +99,7 @@ const speaker : Speaker[] = [
             "Su despacho representa en nuestro país la Antena IGAPE México, organismo español de promoción de negocios internacionales entre empresas mexicanas y gallegas."            
         ],
         position: "Presidente Ejecutivo de la Antena IGAPE México y Socio Fundador de RT&DC Abogados"
-    },
-    {
-        name: "Luis Alfonso González",
-        photo: "/speakers/luisalfonso.webp",
-        profile: [
-            "Es Licenciado en Filosofía y Ciencias Sociales y Maestro en Filosofía y Ciencias Sociales por el ITESO, es Bachiller en Teología de la Pontificia Universidad de México y la Licenciado en Ciencias Religiosas por la Universidad Iberoamericana CdMx, actualmente es candidato a Doctor en Filosofía por la Universidad de Granada.",
-            "Ha colaborado como académico del Departamento de Filosofía y Humanidades en prestigiosas instituciones de enseñanza superior en México y ha realizado proyectos de investigación en la Universidad de Granada.",
-            "Ha publicado diversos escritos en reconocidas revistas especializadas en México y el extranjero.",
-            "Colabora desde el año 2020 en la Universidad Iberoamericana Campus León de la que fue nombrado Rector en enero del 2022."
-        ],
-        position: "Rector de la Universidad Iberoamericana Campus León"
-    },
+    },    
     {
         name: "Carlos Alberto Yates",
         photo: "/speakers/carlos_alberto_yates.webp",

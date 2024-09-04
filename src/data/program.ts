@@ -52,7 +52,7 @@ const program : Program[] = [
             {
                 name: "Francisco Méndez Aguiñaga",
                 photo: "/speakers/profile.svg",
-                position: "Director General del Consejo Empresarial Mexicano de Comercio Exterior, Inversión y Tecnología, COMCE Bajío"
+                position: "Director General del COMCE Bajío"
             }                      
         ]
     },
