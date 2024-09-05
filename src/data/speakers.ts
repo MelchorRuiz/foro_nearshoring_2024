@@ -67,7 +67,13 @@ const speaker : Speaker[] = [
     },
     {
         name: "Rafael Arteaga Vega",
-        photo: "/partners/caname.webp",
+        photo: "/speakers/rafaelarteaga.webp",
+        profile: [
+            "Tiene más de 13 años de experiencia en el ámbito de la comunicación, el compliance y el comercio.",
+            "Ha estado vinculado con la industria por el mismo periodo, donde ha podido combinar su pasión por informar con la práctica legal.",
+            "Cuenta con una Maestría en Derecho Aduanero y Derecho de Comercio Exterior, además de una Licenciatura en Comunicación y otra en Derecho.",
+            "Actualmente se desempeña como Director de Comercio e Inteligencia de Mercado de la Cámara Nacional de Manufacturas Eléctricas, institución en la que anteriormente fue Director de Normalización, Gerente de Mercadotecnia, entre otros cargos."
+        ],
         position: "Director de Normalización y Comercio de la Cámara Nacional de Manufacturas Eléctricas - CANAME"
     },
     {

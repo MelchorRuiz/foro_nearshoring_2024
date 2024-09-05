@@ -111,7 +111,7 @@ const program : Program[] = [
         speakers: [
             {
                 name: "Rafael Arteaga Vega",
-                photo: "/partners/caname.webp",
+                photo: "/speakers/rafaelarteaga.webp",
                 position: "Director de Normalización y Comercio de la Cámara Nacional de Manufacturas Eléctricas - CANAME"
             },
             {
