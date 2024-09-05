@@ -51,7 +51,7 @@ const program : Program[] = [
             },
             {
                 name: "Francisco Méndez Aguiñaga",
-                photo: "/speakers/profile.svg",
+                photo: "/speakers/franciscomendez.webp",
                 position: "Director General del COMCE Bajío"
             }                      
         ]
@@ -138,7 +138,7 @@ const program : Program[] = [
             },           
             {
                 name: "Francisco Méndez Aguiñaga",
-                photo: "/speakers/profile.svg",
+                photo: "/speakers/franciscomendez.webp",
                 position: "Director General del COMCE Bajío"
             },
             {
